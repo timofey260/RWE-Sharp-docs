@@ -17,7 +17,7 @@ jobs:
       - name: Install RWE#
         run: |
           git clone https://github.com/timofey260/RWE-Sharp
-      - name: Add RWE#'s dependencies
+      - name: Add RWE#s dependencies
           cd RWE-Sharp
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
