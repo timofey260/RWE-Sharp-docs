@@ -16,7 +16,7 @@ jobs:
           pip install sphinx sphinx_rtd_theme myst_parser furo
       - name: Install stuff
         run: |
-          sudo apt-get install -y libglib2.0-0
+          sudo apt-get install -y libgl1-mesa-dev
       - name: Install RWE#
         run: |
           git clone https://github.com/timofey260/RWE-Sharp
