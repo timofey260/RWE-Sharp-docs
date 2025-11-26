@@ -1,0 +1,38 @@
+BaseMod.tiles.tileHistory.TileRectangle
+=======================================
+
+.. currentmodule:: BaseMod.tiles.tileHistory
+
+.. autoclass:: TileRectangle
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~TileRectangle.__init__
+      ~TileRectangle.place_tile
+      ~TileRectangle.redo_changes
+      ~TileRectangle.redraw
+      ~TileRectangle.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TileRectangle.basemod
+      ~TileRectangle.level
+      ~TileRectangle.manager
+   
+   

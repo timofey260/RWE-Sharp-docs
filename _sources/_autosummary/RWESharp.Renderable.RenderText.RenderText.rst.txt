@@ -1,0 +1,48 @@
+RWESharp.Renderable.RenderText.RenderText
+=========================================
+
+.. currentmodule:: RWESharp.Renderable.RenderText
+
+.. autoclass:: RenderText
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RenderText.__init__
+      ~RenderText.init_graphics
+      ~RenderText.level_resized
+      ~RenderText.move_event
+      ~RenderText.post_init_graphics
+      ~RenderText.remove_graphics
+      ~RenderText.remove_myself
+      ~RenderText.setOpacity
+      ~RenderText.setPos
+      ~RenderText.setScale
+      ~RenderText.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RenderText.actual_offset
+      ~RenderText.is_initiated_grapgics
+      ~RenderText.level
+      ~RenderText.manager
+      ~RenderText.pos
+      ~RenderText.viewport
+      ~RenderText.zoom
+   
+   

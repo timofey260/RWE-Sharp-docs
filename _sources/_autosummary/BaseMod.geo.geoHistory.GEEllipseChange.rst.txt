@@ -1,0 +1,39 @@
+BaseMod.geo.geoHistory.GEEllipseChange
+======================================
+
+.. currentmodule:: BaseMod.geo.geoHistory
+
+.. autoclass:: GEEllipseChange
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GEEllipseChange.__init__
+      ~GEEllipseChange.drawpoint
+      ~GEEllipseChange.drawpointredo
+      ~GEEllipseChange.redo_changes
+      ~GEEllipseChange.redraw
+      ~GEEllipseChange.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GEEllipseChange.basemod
+      ~GEEllipseChange.level
+      ~GEEllipseChange.manager
+   
+   

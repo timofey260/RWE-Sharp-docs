@@ -1,0 +1,28 @@
+RWESharp.Modify.ConfigModule.ConfigModule
+=========================================
+
+.. currentmodule:: RWESharp.Modify.ConfigModule
+
+.. autoclass:: ConfigModule
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ConfigModule.__init__
+      ~ConfigModule.add_myself
+      ~ConfigModule.config_init
+   
+   
+
+   
+   
+   

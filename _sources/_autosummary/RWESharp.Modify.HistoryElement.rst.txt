@@ -1,0 +1,16 @@
+RWESharp.Modify.HistoryElement
+==============================
+
+.. automodule:: RWESharp.Modify.HistoryElement
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      HistoryElement
+   

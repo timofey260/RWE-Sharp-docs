@@ -1,0 +1,27 @@
+RWESharp.Loaders.PropLoader
+===========================
+
+.. automodule:: RWESharp.Loaders.PropLoader
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      getcolors
+      load_prop
+      load_props
+      tile2prop
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      PropPackLoader
+      PropProgress
+      Tile2PropLoader
+   

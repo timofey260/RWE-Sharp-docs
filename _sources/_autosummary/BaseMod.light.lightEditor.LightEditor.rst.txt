@@ -1,0 +1,72 @@
+BaseMod.light.lightEditor.LightEditor
+=====================================
+
+.. currentmodule:: BaseMod.light.lightEditor
+
+.. autoclass:: LightEditor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~LightEditor.__init__
+      ~LightEditor.add_myself
+      ~LightEditor.add_renderable
+      ~LightEditor.end_painter
+      ~LightEditor.init_scene_items
+      ~LightEditor.level_resized
+      ~LightEditor.mouse_left_press
+      ~LightEditor.mouse_left_release
+      ~LightEditor.mouse_middle_press
+      ~LightEditor.mouse_middle_release
+      ~LightEditor.mouse_move_event
+      ~LightEditor.mouse_press_event
+      ~LightEditor.mouse_release_event
+      ~LightEditor.mouse_released
+      ~LightEditor.mouse_right_press
+      ~LightEditor.mouse_right_release
+      ~LightEditor.mouse_wheel_event
+      ~LightEditor.move_event
+      ~LightEditor.pos_changed
+      ~LightEditor.remove_items_from_scene
+      ~LightEditor.tool_specific_press
+      ~LightEditor.tool_specific_release
+      ~LightEditor.tool_specific_update
+      ~LightEditor.update_brush_transform
+      ~LightEditor.update_light_configurables
+      ~LightEditor.update_painter
+      ~LightEditor.update_position
+      ~LightEditor.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LightEditor.alt
+      ~LightEditor.basemod
+      ~LightEditor.control
+      ~LightEditor.editor_pos
+      ~LightEditor.layer
+      ~LightEditor.level
+      ~LightEditor.meta
+      ~LightEditor.modifiers
+      ~LightEditor.mouse_left
+      ~LightEditor.mouse_pos
+      ~LightEditor.mouse_right
+      ~LightEditor.shift
+      ~LightEditor.workscene
+      ~LightEditor.zoom
+   
+   

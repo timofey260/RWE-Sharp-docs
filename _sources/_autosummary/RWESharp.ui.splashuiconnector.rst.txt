@@ -1,0 +1,16 @@
+RWESharp.ui.splashuiconnector
+=============================
+
+.. automodule:: RWESharp.ui.splashuiconnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      SplashDialog
+   

@@ -1,0 +1,16 @@
+RWESharp.Modify.Editor
+======================
+
+.. automodule:: RWESharp.Modify.Editor
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Editor
+   

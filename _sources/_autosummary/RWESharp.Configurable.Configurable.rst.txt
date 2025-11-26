@@ -1,0 +1,16 @@
+RWESharp.Configurable.Configurable
+==================================
+
+.. automodule:: RWESharp.Configurable.Configurable
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Configurable
+   

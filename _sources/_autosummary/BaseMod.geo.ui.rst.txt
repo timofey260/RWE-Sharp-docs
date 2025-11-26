@@ -1,0 +1,18 @@
+BaseMod.geo.ui
+==============
+
+.. automodule:: BaseMod.geo.ui
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   geometry_ui
+   geometry_vis_ui
+   geosettings_ui

@@ -1,0 +1,16 @@
+BaseMod.light.lightEditor
+=========================
+
+.. automodule:: BaseMod.light.lightEditor
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      LightEditor
+   

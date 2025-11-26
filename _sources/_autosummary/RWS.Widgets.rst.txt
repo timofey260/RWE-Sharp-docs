@@ -1,0 +1,8 @@
+RWS.Widgets
+===========
+
+.. automodule:: RWS.Widgets
+   :members:
+   :undoc-members:
+
+   

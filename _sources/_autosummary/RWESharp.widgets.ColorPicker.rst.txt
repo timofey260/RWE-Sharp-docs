@@ -1,0 +1,16 @@
+RWESharp.widgets.ColorPicker
+============================
+
+.. automodule:: RWESharp.widgets.ColorPicker
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      ColorPicker
+   

@@ -1,0 +1,16 @@
+RWESharp.ui.hotkeysuiconnector
+==============================
+
+.. automodule:: RWESharp.ui.hotkeysuiconnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      HotkeysUI
+   

@@ -1,0 +1,52 @@
+RWESharp.info
+=============
+
+.. automodule:: RWESharp.info
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Module Attributes
+
+   .. autosummary::
+   
+      PATH
+      PATH_FILES
+      PATH_FILES_VIDEOS
+      PATH_FILES_CACHE
+      PATH_FILES_IMAGES
+      PATH_FILES_IMAGES_PALETTES
+      PATH_MODS
+      PATH_DRIZZLE
+      PATH_LEVELS
+      PATH_EFFECT_PREVIEWS
+      PATH_MAT_PREVIEWS
+      PATH_COLLECTIONS_TILES
+      PATH_COLLECTIONS_PROPS
+      PATH_DRIZZLE_TILES
+      PATH_DRIZZLE_PROPS
+      PATH_DRIZZLE_CAST
+      ISLINUX
+      ISMAC
+      ISWIN
+      VERSION
+      AUTHOR
+      AUTHORS
+      NAME
+      PROGNAME
+      FULLNAME
+      REPO
+      REPO_ISSUES
+      REPO_DOWNLOAD
+      REPO_DOWNLOAD_LATEST
+      REPO_DATABASE
+      CUSTOM_LINKS
+      CONSTS
+      CELLSIZE
+      SPRITESIZE
+      camw
+      camh
+      ofsleft
+      ofstop
+      wladd
+   

@@ -1,0 +1,43 @@
+BaseMod.themes.preferencesuiconnector.PreferencesUI
+===================================================
+
+.. currentmodule:: BaseMod.themes.preferencesuiconnector
+
+.. autoclass:: PreferencesUI
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PreferencesUI.__init__
+      ~PreferencesUI.add_theme
+      ~PreferencesUI.apply_values
+      ~PreferencesUI.change_theme
+      ~PreferencesUI.index_changed
+      ~PreferencesUI.init_ui
+      ~PreferencesUI.pick_active
+      ~PreferencesUI.reset_values
+      ~PreferencesUI.reset_values_default
+      ~PreferencesUI.setup_ui
+      ~PreferencesUI.update_themes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PreferencesUI.basemod
+      ~PreferencesUI.is_changed
+   
+   

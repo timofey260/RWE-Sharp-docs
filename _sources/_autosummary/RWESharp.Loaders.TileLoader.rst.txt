@@ -1,0 +1,26 @@
+RWESharp.Loaders.TileLoader
+===========================
+
+.. automodule:: RWESharp.Loaders.TileLoader
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      init_solve
+      loadTile
+      load_tiles
+      palette_to_colortable
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      TilePackLoader
+      TileProgress
+   

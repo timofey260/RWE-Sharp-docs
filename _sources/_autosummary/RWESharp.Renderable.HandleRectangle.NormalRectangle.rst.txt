@@ -1,0 +1,248 @@
+RWESharp.Renderable.HandleRectangle.NormalRectangle
+===================================================
+
+.. currentmodule:: RWESharp.Renderable.HandleRectangle
+
+.. autoclass:: NormalRectangle
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~NormalRectangle.__init__
+      ~NormalRectangle.acceptDrops
+      ~NormalRectangle.acceptHoverEvents
+      ~NormalRectangle.acceptTouchEvents
+      ~NormalRectangle.acceptedMouseButtons
+      ~NormalRectangle.addToIndex
+      ~NormalRectangle.advance
+      ~NormalRectangle.blockSignals
+      ~NormalRectangle.boundingRect
+      ~NormalRectangle.boundingRegion
+      ~NormalRectangle.boundingRegionGranularity
+      ~NormalRectangle.brush
+      ~NormalRectangle.cacheMode
+      ~NormalRectangle.childEvent
+      ~NormalRectangle.childItems
+      ~NormalRectangle.children
+      ~NormalRectangle.childrenBoundingRect
+      ~NormalRectangle.clearFocus
+      ~NormalRectangle.clipPath
+      ~NormalRectangle.collidesWithItem
+      ~NormalRectangle.collidesWithPath
+      ~NormalRectangle.collidingItems
+      ~NormalRectangle.commonAncestorItem
+      ~NormalRectangle.connect
+      ~NormalRectangle.connectNotify
+      ~NormalRectangle.contains
+      ~NormalRectangle.contextMenuEvent
+      ~NormalRectangle.cursor
+      ~NormalRectangle.customEvent
+      ~NormalRectangle.data
+      ~NormalRectangle.deleteLater
+      ~NormalRectangle.deviceTransform
+      ~NormalRectangle.disconnect
+      ~NormalRectangle.disconnectNotify
+      ~NormalRectangle.dragEnterEvent
+      ~NormalRectangle.dragLeaveEvent
+      ~NormalRectangle.dragMoveEvent
+      ~NormalRectangle.dropEvent
+      ~NormalRectangle.dumpObjectInfo
+      ~NormalRectangle.dumpObjectTree
+      ~NormalRectangle.dynamicPropertyNames
+      ~NormalRectangle.effectiveOpacity
+      ~NormalRectangle.emit
+      ~NormalRectangle.ensureVisible
+      ~NormalRectangle.event
+      ~NormalRectangle.eventFilter
+      ~NormalRectangle.extension
+      ~NormalRectangle.filtersChildEvents
+      ~NormalRectangle.findChild
+      ~NormalRectangle.findChildren
+      ~NormalRectangle.flags
+      ~NormalRectangle.focusInEvent
+      ~NormalRectangle.focusItem
+      ~NormalRectangle.focusOutEvent
+      ~NormalRectangle.focusProxy
+      ~NormalRectangle.focusScopeItem
+      ~NormalRectangle.grabKeyboard
+      ~NormalRectangle.grabMouse
+      ~NormalRectangle.graphicsEffect
+      ~NormalRectangle.group
+      ~NormalRectangle.handlesChildEvents
+      ~NormalRectangle.hasCursor
+      ~NormalRectangle.hasFocus
+      ~NormalRectangle.hide
+      ~NormalRectangle.hoverEnterEvent
+      ~NormalRectangle.hoverLeaveEvent
+      ~NormalRectangle.hoverMoveEvent
+      ~NormalRectangle.inherits
+      ~NormalRectangle.inputMethodEvent
+      ~NormalRectangle.inputMethodHints
+      ~NormalRectangle.inputMethodQuery
+      ~NormalRectangle.installEventFilter
+      ~NormalRectangle.installSceneEventFilter
+      ~NormalRectangle.isActive
+      ~NormalRectangle.isAncestorOf
+      ~NormalRectangle.isBlockedByModalPanel
+      ~NormalRectangle.isClipped
+      ~NormalRectangle.isEnabled
+      ~NormalRectangle.isObscured
+      ~NormalRectangle.isObscuredBy
+      ~NormalRectangle.isPanel
+      ~NormalRectangle.isQuickItemType
+      ~NormalRectangle.isSelected
+      ~NormalRectangle.isSignalConnected
+      ~NormalRectangle.isUnderMouse
+      ~NormalRectangle.isVisible
+      ~NormalRectangle.isVisibleTo
+      ~NormalRectangle.isWidget
+      ~NormalRectangle.isWidgetType
+      ~NormalRectangle.isWindow
+      ~NormalRectangle.isWindowType
+      ~NormalRectangle.itemChange
+      ~NormalRectangle.itemTransform
+      ~NormalRectangle.keyPressEvent
+      ~NormalRectangle.keyReleaseEvent
+      ~NormalRectangle.killTimer
+      ~NormalRectangle.mapFromItem
+      ~NormalRectangle.mapFromParent
+      ~NormalRectangle.mapFromScene
+      ~NormalRectangle.mapRectFromItem
+      ~NormalRectangle.mapRectFromParent
+      ~NormalRectangle.mapRectFromScene
+      ~NormalRectangle.mapRectToItem
+      ~NormalRectangle.mapRectToParent
+      ~NormalRectangle.mapRectToScene
+      ~NormalRectangle.mapToItem
+      ~NormalRectangle.mapToParent
+      ~NormalRectangle.mapToScene
+      ~NormalRectangle.metaObject
+      ~NormalRectangle.mouseDoubleClickEvent
+      ~NormalRectangle.mouseMoveEvent
+      ~NormalRectangle.mousePressEvent
+      ~NormalRectangle.mouseReleaseEvent
+      ~NormalRectangle.moveBy
+      ~NormalRectangle.moveToThread
+      ~NormalRectangle.objectName
+      ~NormalRectangle.opacity
+      ~NormalRectangle.opaqueArea
+      ~NormalRectangle.paint
+      ~NormalRectangle.panel
+      ~NormalRectangle.panelModality
+      ~NormalRectangle.parent
+      ~NormalRectangle.parentItem
+      ~NormalRectangle.parentObject
+      ~NormalRectangle.parentWidget
+      ~NormalRectangle.pen
+      ~NormalRectangle.pos
+      ~NormalRectangle.prepareGeometryChange
+      ~NormalRectangle.property
+      ~NormalRectangle.receivers
+      ~NormalRectangle.rect
+      ~NormalRectangle.removeEventFilter
+      ~NormalRectangle.removeFromIndex
+      ~NormalRectangle.removeSceneEventFilter
+      ~NormalRectangle.resetTransform
+      ~NormalRectangle.rotation
+      ~NormalRectangle.scale
+      ~NormalRectangle.scene
+      ~NormalRectangle.sceneBoundingRect
+      ~NormalRectangle.sceneEvent
+      ~NormalRectangle.sceneEventFilter
+      ~NormalRectangle.scenePos
+      ~NormalRectangle.sceneTransform
+      ~NormalRectangle.scroll
+      ~NormalRectangle.sender
+      ~NormalRectangle.senderSignalIndex
+      ~NormalRectangle.setAcceptDrops
+      ~NormalRectangle.setAcceptHoverEvents
+      ~NormalRectangle.setAcceptTouchEvents
+      ~NormalRectangle.setAcceptedMouseButtons
+      ~NormalRectangle.setActive
+      ~NormalRectangle.setBoundingRegionGranularity
+      ~NormalRectangle.setBrush
+      ~NormalRectangle.setCacheMode
+      ~NormalRectangle.setCursor
+      ~NormalRectangle.setData
+      ~NormalRectangle.setEnabled
+      ~NormalRectangle.setFiltersChildEvents
+      ~NormalRectangle.setFlag
+      ~NormalRectangle.setFlags
+      ~NormalRectangle.setFocus
+      ~NormalRectangle.setFocusProxy
+      ~NormalRectangle.setGraphicsEffect
+      ~NormalRectangle.setGroup
+      ~NormalRectangle.setHandlesChildEvents
+      ~NormalRectangle.setInputMethodHints
+      ~NormalRectangle.setObjectName
+      ~NormalRectangle.setOpacity
+      ~NormalRectangle.setPanelModality
+      ~NormalRectangle.setParent
+      ~NormalRectangle.setParentItem
+      ~NormalRectangle.setPen
+      ~NormalRectangle.setPos
+      ~NormalRectangle.setProperty
+      ~NormalRectangle.setRect
+      ~NormalRectangle.setRotation
+      ~NormalRectangle.setScale
+      ~NormalRectangle.setSelected
+      ~NormalRectangle.setToolTip
+      ~NormalRectangle.setTransform
+      ~NormalRectangle.setTransformOriginPoint
+      ~NormalRectangle.setTransformations
+      ~NormalRectangle.setVisible
+      ~NormalRectangle.setX
+      ~NormalRectangle.setY
+      ~NormalRectangle.setZValue
+      ~NormalRectangle.shape
+      ~NormalRectangle.show
+      ~NormalRectangle.signalsBlocked
+      ~NormalRectangle.stackBefore
+      ~NormalRectangle.startTimer
+      ~NormalRectangle.thread
+      ~NormalRectangle.timerEvent
+      ~NormalRectangle.toGraphicsObject
+      ~NormalRectangle.toolTip
+      ~NormalRectangle.topLevelItem
+      ~NormalRectangle.topLevelWidget
+      ~NormalRectangle.tr
+      ~NormalRectangle.transform
+      ~NormalRectangle.transformOriginPoint
+      ~NormalRectangle.transformations
+      ~NormalRectangle.type
+      ~NormalRectangle.ungrabKeyboard
+      ~NormalRectangle.ungrabMouse
+      ~NormalRectangle.unsetCursor
+      ~NormalRectangle.update
+      ~NormalRectangle.updateMicroFocus
+      ~NormalRectangle.wheelEvent
+      ~NormalRectangle.window
+      ~NormalRectangle.x
+      ~NormalRectangle.y
+      ~NormalRectangle.zValue
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~NormalRectangle.UserType
+      ~NormalRectangle.destroyed
+      ~NormalRectangle.objectNameChanged
+      ~NormalRectangle.rectChanged
+      ~NormalRectangle.rectMoved
+      ~NormalRectangle.staticMetaObject
+   
+   

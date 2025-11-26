@@ -1,0 +1,8 @@
+BaseMod.geo.GeoConsts
+=====================
+
+.. automodule:: BaseMod.geo.GeoConsts
+   :members:
+   :undoc-members:
+
+   

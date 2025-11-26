@@ -1,0 +1,17 @@
+RWESharp.Core.ItemData
+======================
+
+.. automodule:: RWESharp.Core.ItemData
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      ItemData
+      ItemDataItem
+   

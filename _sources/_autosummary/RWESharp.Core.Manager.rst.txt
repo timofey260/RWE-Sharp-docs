@@ -1,0 +1,16 @@
+RWESharp.Core.Manager
+=====================
+
+.. automodule:: RWESharp.Core.Manager
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Manager
+   

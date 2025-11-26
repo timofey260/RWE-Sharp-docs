@@ -1,0 +1,8 @@
+RWS.Configurable
+================
+
+.. automodule:: RWS.Configurable
+   :members:
+   :undoc-members:
+
+   

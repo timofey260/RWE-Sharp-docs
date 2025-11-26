@@ -1,0 +1,21 @@
+RWESharp.Loaders.Effect
+=======================
+
+.. automodule:: RWESharp.Loaders.Effect
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Effect
+      EffectCategory
+      EffectOption
+      Effects
+      MoveDeleteOption
+      SeedOption
+   

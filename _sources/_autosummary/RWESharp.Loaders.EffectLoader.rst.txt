@@ -1,0 +1,14 @@
+RWESharp.Loaders.EffectLoader
+=============================
+
+.. automodule:: RWESharp.Loaders.EffectLoader
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      load_effects
+   

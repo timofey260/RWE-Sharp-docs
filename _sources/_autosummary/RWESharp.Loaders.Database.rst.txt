@@ -1,0 +1,16 @@
+RWESharp.Loaders.Database
+=========================
+
+.. automodule:: RWESharp.Loaders.Database
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      RWESharpDatabase
+   

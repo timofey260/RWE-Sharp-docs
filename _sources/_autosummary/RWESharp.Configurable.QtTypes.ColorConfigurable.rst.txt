@@ -1,0 +1,83 @@
+RWESharp.Configurable.QtTypes.ColorConfigurable
+===============================================
+
+.. currentmodule:: RWESharp.Configurable.QtTypes
+
+.. autoclass:: ColorConfigurable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ColorConfigurable.__init__
+      ~ColorConfigurable.blockSignals
+      ~ColorConfigurable.childEvent
+      ~ColorConfigurable.children
+      ~ColorConfigurable.connect
+      ~ColorConfigurable.connectNotify
+      ~ColorConfigurable.customEvent
+      ~ColorConfigurable.deleteLater
+      ~ColorConfigurable.disconnect
+      ~ColorConfigurable.disconnectNotify
+      ~ColorConfigurable.dumpObjectInfo
+      ~ColorConfigurable.dumpObjectTree
+      ~ColorConfigurable.dynamicPropertyNames
+      ~ColorConfigurable.emit
+      ~ColorConfigurable.event
+      ~ColorConfigurable.eventFilter
+      ~ColorConfigurable.findChild
+      ~ColorConfigurable.findChildren
+      ~ColorConfigurable.inherits
+      ~ColorConfigurable.installEventFilter
+      ~ColorConfigurable.isQuickItemType
+      ~ColorConfigurable.isSignalConnected
+      ~ColorConfigurable.isWidgetType
+      ~ColorConfigurable.isWindowType
+      ~ColorConfigurable.killTimer
+      ~ColorConfigurable.link_color_picker
+      ~ColorConfigurable.link_mod
+      ~ColorConfigurable.load_str_value
+      ~ColorConfigurable.metaObject
+      ~ColorConfigurable.moveToThread
+      ~ColorConfigurable.objectName
+      ~ColorConfigurable.parent
+      ~ColorConfigurable.property
+      ~ColorConfigurable.receivers
+      ~ColorConfigurable.removeEventFilter
+      ~ColorConfigurable.reset_value
+      ~ColorConfigurable.save_str_value
+      ~ColorConfigurable.sender
+      ~ColorConfigurable.senderSignalIndex
+      ~ColorConfigurable.setObjectName
+      ~ColorConfigurable.setParent
+      ~ColorConfigurable.setProperty
+      ~ColorConfigurable.signalsBlocked
+      ~ColorConfigurable.startTimer
+      ~ColorConfigurable.thread
+      ~ColorConfigurable.timerEvent
+      ~ColorConfigurable.tr
+      ~ColorConfigurable.update_value
+      ~ColorConfigurable.update_value_default
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ColorConfigurable.destroyed
+      ~ColorConfigurable.objectNameChanged
+      ~ColorConfigurable.staticMetaObject
+      ~ColorConfigurable.valueChanged
+   
+   

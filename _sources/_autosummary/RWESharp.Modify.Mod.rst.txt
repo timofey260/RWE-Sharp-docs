@@ -1,0 +1,17 @@
+RWESharp.Modify.Mod
+===================
+
+.. automodule:: RWESharp.Modify.Mod
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Mod
+      ModInfo
+   

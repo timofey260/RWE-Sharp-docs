@@ -1,0 +1,84 @@
+RWESharp.Configurable.PythonTypes.FloatConfigurable
+===================================================
+
+.. currentmodule:: RWESharp.Configurable.PythonTypes
+
+.. autoclass:: FloatConfigurable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~FloatConfigurable.__init__
+      ~FloatConfigurable.blockSignals
+      ~FloatConfigurable.childEvent
+      ~FloatConfigurable.children
+      ~FloatConfigurable.connect
+      ~FloatConfigurable.connectNotify
+      ~FloatConfigurable.customEvent
+      ~FloatConfigurable.deleteLater
+      ~FloatConfigurable.disconnect
+      ~FloatConfigurable.disconnectNotify
+      ~FloatConfigurable.dumpObjectInfo
+      ~FloatConfigurable.dumpObjectTree
+      ~FloatConfigurable.dynamicPropertyNames
+      ~FloatConfigurable.emit
+      ~FloatConfigurable.event
+      ~FloatConfigurable.eventFilter
+      ~FloatConfigurable.findChild
+      ~FloatConfigurable.findChildren
+      ~FloatConfigurable.inherits
+      ~FloatConfigurable.installEventFilter
+      ~FloatConfigurable.isQuickItemType
+      ~FloatConfigurable.isSignalConnected
+      ~FloatConfigurable.isWidgetType
+      ~FloatConfigurable.isWindowType
+      ~FloatConfigurable.killTimer
+      ~FloatConfigurable.link_doublespinbox
+      ~FloatConfigurable.link_mod
+      ~FloatConfigurable.link_slider
+      ~FloatConfigurable.load_str_value
+      ~FloatConfigurable.metaObject
+      ~FloatConfigurable.moveToThread
+      ~FloatConfigurable.objectName
+      ~FloatConfigurable.parent
+      ~FloatConfigurable.property
+      ~FloatConfigurable.receivers
+      ~FloatConfigurable.removeEventFilter
+      ~FloatConfigurable.reset_value
+      ~FloatConfigurable.save_str_value
+      ~FloatConfigurable.sender
+      ~FloatConfigurable.senderSignalIndex
+      ~FloatConfigurable.setObjectName
+      ~FloatConfigurable.setParent
+      ~FloatConfigurable.setProperty
+      ~FloatConfigurable.signalsBlocked
+      ~FloatConfigurable.startTimer
+      ~FloatConfigurable.thread
+      ~FloatConfigurable.timerEvent
+      ~FloatConfigurable.tr
+      ~FloatConfigurable.update_value
+      ~FloatConfigurable.update_value_default
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~FloatConfigurable.destroyed
+      ~FloatConfigurable.objectNameChanged
+      ~FloatConfigurable.staticMetaObject
+      ~FloatConfigurable.valueChanged
+   
+   

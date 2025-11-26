@@ -1,0 +1,41 @@
+BaseMod.props.RopePhysics.RopeModel
+===================================
+
+.. currentmodule:: BaseMod.props.RopePhysics
+
+.. autoclass:: RopeModel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RopeModel.ApplyRigidity
+      ~RopeModel.ConnectRopePoints
+      ~RopeModel.PushRopePointOutOfTerrain
+      ~RopeModel.__init__
+      ~RopeModel.afaMvLvlEdit
+      ~RopeModel.giveGridPos
+      ~RopeModel.giveMiddleOfTile
+      ~RopeModel.modelRopeUpdate
+      ~RopeModel.sharedCheckVCollision
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RopeModel.levelheight
+      ~RopeModel.levelwidth
+   
+   

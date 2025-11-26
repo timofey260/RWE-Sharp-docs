@@ -1,0 +1,251 @@
+RWESharp.Renderable.Handle.HandleItem
+=====================================
+
+.. currentmodule:: RWESharp.Renderable.Handle
+
+.. autoclass:: HandleItem
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~HandleItem.__init__
+      ~HandleItem.acceptDrops
+      ~HandleItem.acceptHoverEvents
+      ~HandleItem.acceptTouchEvents
+      ~HandleItem.acceptedMouseButtons
+      ~HandleItem.addToIndex
+      ~HandleItem.advance
+      ~HandleItem.blockSignals
+      ~HandleItem.boundingRect
+      ~HandleItem.boundingRegion
+      ~HandleItem.boundingRegionGranularity
+      ~HandleItem.brush
+      ~HandleItem.cacheMode
+      ~HandleItem.childEvent
+      ~HandleItem.childItems
+      ~HandleItem.children
+      ~HandleItem.childrenBoundingRect
+      ~HandleItem.clearFocus
+      ~HandleItem.clipPath
+      ~HandleItem.collidesWithItem
+      ~HandleItem.collidesWithPath
+      ~HandleItem.collidingItems
+      ~HandleItem.commonAncestorItem
+      ~HandleItem.connect
+      ~HandleItem.connectNotify
+      ~HandleItem.contains
+      ~HandleItem.contextMenuEvent
+      ~HandleItem.cursor
+      ~HandleItem.customEvent
+      ~HandleItem.data
+      ~HandleItem.deleteLater
+      ~HandleItem.deviceTransform
+      ~HandleItem.disconnect
+      ~HandleItem.disconnectNotify
+      ~HandleItem.dragEnterEvent
+      ~HandleItem.dragLeaveEvent
+      ~HandleItem.dragMoveEvent
+      ~HandleItem.dropEvent
+      ~HandleItem.dumpObjectInfo
+      ~HandleItem.dumpObjectTree
+      ~HandleItem.dynamicPropertyNames
+      ~HandleItem.effectiveOpacity
+      ~HandleItem.emit
+      ~HandleItem.ensureVisible
+      ~HandleItem.event
+      ~HandleItem.eventFilter
+      ~HandleItem.extension
+      ~HandleItem.filtersChildEvents
+      ~HandleItem.findChild
+      ~HandleItem.findChildren
+      ~HandleItem.flags
+      ~HandleItem.focusInEvent
+      ~HandleItem.focusItem
+      ~HandleItem.focusOutEvent
+      ~HandleItem.focusProxy
+      ~HandleItem.focusScopeItem
+      ~HandleItem.grabKeyboard
+      ~HandleItem.grabMouse
+      ~HandleItem.graphicsEffect
+      ~HandleItem.group
+      ~HandleItem.handlesChildEvents
+      ~HandleItem.hasCursor
+      ~HandleItem.hasFocus
+      ~HandleItem.hide
+      ~HandleItem.hoverEnterEvent
+      ~HandleItem.hoverLeaveEvent
+      ~HandleItem.hoverMoveEvent
+      ~HandleItem.inherits
+      ~HandleItem.inputMethodEvent
+      ~HandleItem.inputMethodHints
+      ~HandleItem.inputMethodQuery
+      ~HandleItem.installEventFilter
+      ~HandleItem.installSceneEventFilter
+      ~HandleItem.isActive
+      ~HandleItem.isAncestorOf
+      ~HandleItem.isBlockedByModalPanel
+      ~HandleItem.isClipped
+      ~HandleItem.isEnabled
+      ~HandleItem.isObscured
+      ~HandleItem.isObscuredBy
+      ~HandleItem.isPanel
+      ~HandleItem.isQuickItemType
+      ~HandleItem.isSelected
+      ~HandleItem.isSignalConnected
+      ~HandleItem.isUnderMouse
+      ~HandleItem.isVisible
+      ~HandleItem.isVisibleTo
+      ~HandleItem.isWidget
+      ~HandleItem.isWidgetType
+      ~HandleItem.isWindow
+      ~HandleItem.isWindowType
+      ~HandleItem.itemChange
+      ~HandleItem.itemTransform
+      ~HandleItem.keyPressEvent
+      ~HandleItem.keyReleaseEvent
+      ~HandleItem.killTimer
+      ~HandleItem.mapFromItem
+      ~HandleItem.mapFromParent
+      ~HandleItem.mapFromScene
+      ~HandleItem.mapRectFromItem
+      ~HandleItem.mapRectFromParent
+      ~HandleItem.mapRectFromScene
+      ~HandleItem.mapRectToItem
+      ~HandleItem.mapRectToParent
+      ~HandleItem.mapRectToScene
+      ~HandleItem.mapToItem
+      ~HandleItem.mapToParent
+      ~HandleItem.mapToScene
+      ~HandleItem.metaObject
+      ~HandleItem.mouseDoubleClickEvent
+      ~HandleItem.mouseMoveEvent
+      ~HandleItem.mousePressEvent
+      ~HandleItem.mouseReleaseEvent
+      ~HandleItem.moveBy
+      ~HandleItem.moveToThread
+      ~HandleItem.movehandle
+      ~HandleItem.objectName
+      ~HandleItem.opacity
+      ~HandleItem.opaqueArea
+      ~HandleItem.paint
+      ~HandleItem.panel
+      ~HandleItem.panelModality
+      ~HandleItem.parent
+      ~HandleItem.parentItem
+      ~HandleItem.parentObject
+      ~HandleItem.parentWidget
+      ~HandleItem.pen
+      ~HandleItem.pos
+      ~HandleItem.prepareGeometryChange
+      ~HandleItem.property
+      ~HandleItem.receivers
+      ~HandleItem.rect
+      ~HandleItem.removeEventFilter
+      ~HandleItem.removeFromIndex
+      ~HandleItem.removeSceneEventFilter
+      ~HandleItem.resetTransform
+      ~HandleItem.rotation
+      ~HandleItem.scale
+      ~HandleItem.scene
+      ~HandleItem.sceneBoundingRect
+      ~HandleItem.sceneEvent
+      ~HandleItem.sceneEventFilter
+      ~HandleItem.scenePos
+      ~HandleItem.sceneTransform
+      ~HandleItem.scroll
+      ~HandleItem.sender
+      ~HandleItem.senderSignalIndex
+      ~HandleItem.setAcceptDrops
+      ~HandleItem.setAcceptHoverEvents
+      ~HandleItem.setAcceptTouchEvents
+      ~HandleItem.setAcceptedMouseButtons
+      ~HandleItem.setActive
+      ~HandleItem.setBoundingRegionGranularity
+      ~HandleItem.setBrush
+      ~HandleItem.setCacheMode
+      ~HandleItem.setCursor
+      ~HandleItem.setData
+      ~HandleItem.setEnabled
+      ~HandleItem.setFiltersChildEvents
+      ~HandleItem.setFlag
+      ~HandleItem.setFlags
+      ~HandleItem.setFocus
+      ~HandleItem.setFocusProxy
+      ~HandleItem.setGraphicsEffect
+      ~HandleItem.setGroup
+      ~HandleItem.setHandlesChildEvents
+      ~HandleItem.setInputMethodHints
+      ~HandleItem.setObjectName
+      ~HandleItem.setOpacity
+      ~HandleItem.setPanelModality
+      ~HandleItem.setParent
+      ~HandleItem.setParentItem
+      ~HandleItem.setPen
+      ~HandleItem.setPos
+      ~HandleItem.setProperty
+      ~HandleItem.setRect
+      ~HandleItem.setRotation
+      ~HandleItem.setScale
+      ~HandleItem.setSelected
+      ~HandleItem.setToolTip
+      ~HandleItem.setTransform
+      ~HandleItem.setTransformOriginPoint
+      ~HandleItem.setTransformations
+      ~HandleItem.setVisible
+      ~HandleItem.setX
+      ~HandleItem.setY
+      ~HandleItem.setZValue
+      ~HandleItem.shape
+      ~HandleItem.show
+      ~HandleItem.signalsBlocked
+      ~HandleItem.stackBefore
+      ~HandleItem.startTimer
+      ~HandleItem.thread
+      ~HandleItem.timerEvent
+      ~HandleItem.toGraphicsObject
+      ~HandleItem.toolTip
+      ~HandleItem.topLevelItem
+      ~HandleItem.topLevelWidget
+      ~HandleItem.tr
+      ~HandleItem.transform
+      ~HandleItem.transformOriginPoint
+      ~HandleItem.transformations
+      ~HandleItem.type
+      ~HandleItem.ungrabKeyboard
+      ~HandleItem.ungrabMouse
+      ~HandleItem.unsetCursor
+      ~HandleItem.update
+      ~HandleItem.updateMicroFocus
+      ~HandleItem.wheelEvent
+      ~HandleItem.window
+      ~HandleItem.x
+      ~HandleItem.y
+      ~HandleItem.zValue
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~HandleItem.UserType
+      ~HandleItem.destroyed
+      ~HandleItem.mousePressed
+      ~HandleItem.mouseReleased
+      ~HandleItem.objectNameChanged
+      ~HandleItem.posChanged
+      ~HandleItem.posChangedRelative
+      ~HandleItem.staticMetaObject
+   
+   

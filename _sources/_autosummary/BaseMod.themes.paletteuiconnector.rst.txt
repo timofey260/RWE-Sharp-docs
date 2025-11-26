@@ -1,0 +1,16 @@
+BaseMod.themes.paletteuiconnector
+=================================
+
+.. automodule:: BaseMod.themes.paletteuiconnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      RPDarkUI
+   

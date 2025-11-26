@@ -1,0 +1,28 @@
+RWESharp.ui.uiscripts.splash.Ui\_Splash
+=======================================
+
+.. currentmodule:: RWESharp.ui.uiscripts.splash
+
+.. autoclass:: Ui_Splash
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Ui_Splash.__init__
+      ~Ui_Splash.retranslateUi
+      ~Ui_Splash.setupUi
+   
+   
+
+   
+   
+   

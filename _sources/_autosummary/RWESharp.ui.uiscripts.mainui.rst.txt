@@ -1,0 +1,16 @@
+RWESharp.ui.uiscripts.mainui
+============================
+
+.. automodule:: RWESharp.ui.uiscripts.mainui
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_MainWindow
+   

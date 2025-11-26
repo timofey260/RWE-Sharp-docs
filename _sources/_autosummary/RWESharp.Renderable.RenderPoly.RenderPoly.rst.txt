@@ -1,0 +1,49 @@
+RWESharp.Renderable.RenderPoly.RenderPoly
+=========================================
+
+.. currentmodule:: RWESharp.Renderable.RenderPoly
+
+.. autoclass:: RenderPoly
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RenderPoly.__init__
+      ~RenderPoly.init_graphics
+      ~RenderPoly.level_resized
+      ~RenderPoly.move_event
+      ~RenderPoly.post_init_graphics
+      ~RenderPoly.remove_graphics
+      ~RenderPoly.remove_myself
+      ~RenderPoly.setOpacity
+      ~RenderPoly.setPoly
+      ~RenderPoly.setPos
+      ~RenderPoly.setScale
+      ~RenderPoly.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RenderPoly.actual_offset
+      ~RenderPoly.is_initiated_grapgics
+      ~RenderPoly.level
+      ~RenderPoly.manager
+      ~RenderPoly.pos
+      ~RenderPoly.viewport
+      ~RenderPoly.zoom
+   
+   

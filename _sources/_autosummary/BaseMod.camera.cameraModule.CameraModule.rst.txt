@@ -1,0 +1,49 @@
+BaseMod.camera.cameraModule.CameraModule
+========================================
+
+.. currentmodule:: BaseMod.camera.cameraModule
+
+.. autoclass:: CameraModule
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~CameraModule.__init__
+      ~CameraModule.add_camera
+      ~CameraModule.add_myself
+      ~CameraModule.add_new_camera
+      ~CameraModule.add_renderable
+      ~CameraModule.change_visibility
+      ~CameraModule.init_scene_items
+      ~CameraModule.level_resized
+      ~CameraModule.move_camera
+      ~CameraModule.move_event
+      ~CameraModule.pop_camera
+      ~CameraModule.reindex
+      ~CameraModule.remove_items_from_scene
+      ~CameraModule.update_cameras
+      ~CameraModule.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CameraModule.basemod
+      ~CameraModule.layer
+      ~CameraModule.level
+      ~CameraModule.zoom
+   
+   

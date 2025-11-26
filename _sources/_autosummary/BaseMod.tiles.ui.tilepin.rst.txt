@@ -1,0 +1,16 @@
+BaseMod.tiles.ui.tilepin
+========================
+
+.. automodule:: BaseMod.tiles.ui.tilepin
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_TilePin
+   

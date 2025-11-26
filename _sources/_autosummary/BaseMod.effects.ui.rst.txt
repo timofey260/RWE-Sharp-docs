@@ -1,0 +1,19 @@
+BaseMod.effects.ui
+==================
+
+.. automodule:: BaseMod.effects.ui
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   effectexplorer_ui
+   effects_ui
+   effectsdialog
+   effectsview_ui

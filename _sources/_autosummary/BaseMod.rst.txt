@@ -1,0 +1,30 @@
+﻿BaseMod
+=======
+
+.. automodule:: BaseMod
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   BaseModWidgets
+   Configs
+   Explorer
+   LevelParts
+   baseMod
+   camera
+   effects
+   geo
+   grid
+   light
+   properties
+   props
+   themes
+   tiles
+   ui

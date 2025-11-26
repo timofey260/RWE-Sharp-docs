@@ -1,0 +1,20 @@
+BaseMod.light
+=============
+
+.. automodule:: BaseMod.light
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   lightEditor
+   lightHistory
+   lightModule
+   lightUIConnectors
+   ui

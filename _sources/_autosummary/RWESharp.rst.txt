@@ -1,0 +1,25 @@
+﻿RWESharp
+========
+
+.. automodule:: RWESharp
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   Configurable
+   Core
+   Level
+   Loaders
+   Modify
+   Renderable
+   info
+   ui
+   utils
+   widgets

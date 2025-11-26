@@ -1,0 +1,16 @@
+BaseMod.props.propModule
+========================
+
+.. automodule:: BaseMod.props.propModule
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      PropModule
+   

@@ -1,0 +1,8 @@
+BaseMod.BaseModWidgets
+======================
+
+.. automodule:: BaseMod.BaseModWidgets
+   :members:
+   :undoc-members:
+
+   

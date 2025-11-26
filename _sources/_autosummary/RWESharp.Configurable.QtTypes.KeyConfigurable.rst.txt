@@ -1,0 +1,87 @@
+RWESharp.Configurable.QtTypes.KeyConfigurable
+=============================================
+
+.. currentmodule:: RWESharp.Configurable.QtTypes
+
+.. autoclass:: KeyConfigurable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~KeyConfigurable.__init__
+      ~KeyConfigurable.blockSignals
+      ~KeyConfigurable.childEvent
+      ~KeyConfigurable.children
+      ~KeyConfigurable.connect
+      ~KeyConfigurable.connectNotify
+      ~KeyConfigurable.customEvent
+      ~KeyConfigurable.deleteLater
+      ~KeyConfigurable.disconnect
+      ~KeyConfigurable.disconnectNotify
+      ~KeyConfigurable.dumpObjectInfo
+      ~KeyConfigurable.dumpObjectTree
+      ~KeyConfigurable.dynamicPropertyNames
+      ~KeyConfigurable.emit
+      ~KeyConfigurable.event
+      ~KeyConfigurable.eventFilter
+      ~KeyConfigurable.findChild
+      ~KeyConfigurable.findChildren
+      ~KeyConfigurable.inherits
+      ~KeyConfigurable.installEventFilter
+      ~KeyConfigurable.isQuickItemType
+      ~KeyConfigurable.isSignalConnected
+      ~KeyConfigurable.isWidgetType
+      ~KeyConfigurable.isWindowType
+      ~KeyConfigurable.killTimer
+      ~KeyConfigurable.link_action
+      ~KeyConfigurable.link_button
+      ~KeyConfigurable.link_keysequenceedit
+      ~KeyConfigurable.link_mod
+      ~KeyConfigurable.link_shortcut
+      ~KeyConfigurable.load_str_value
+      ~KeyConfigurable.metaObject
+      ~KeyConfigurable.moveToThread
+      ~KeyConfigurable.objectName
+      ~KeyConfigurable.parent
+      ~KeyConfigurable.property
+      ~KeyConfigurable.receivers
+      ~KeyConfigurable.removeEventFilter
+      ~KeyConfigurable.reset_value
+      ~KeyConfigurable.save_str_value
+      ~KeyConfigurable.sender
+      ~KeyConfigurable.senderSignalIndex
+      ~KeyConfigurable.setObjectName
+      ~KeyConfigurable.setParent
+      ~KeyConfigurable.setProperty
+      ~KeyConfigurable.signalsBlocked
+      ~KeyConfigurable.startTimer
+      ~KeyConfigurable.thread
+      ~KeyConfigurable.timerEvent
+      ~KeyConfigurable.tr
+      ~KeyConfigurable.update_value
+      ~KeyConfigurable.update_value_default
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~KeyConfigurable.destroyed
+      ~KeyConfigurable.objectNameChanged
+      ~KeyConfigurable.staticMetaObject
+      ~KeyConfigurable.tooltipChanged
+      ~KeyConfigurable.valueChanged
+   
+   

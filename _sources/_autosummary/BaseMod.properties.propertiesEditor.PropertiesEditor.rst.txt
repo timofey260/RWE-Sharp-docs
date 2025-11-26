@@ -1,0 +1,72 @@
+BaseMod.properties.propertiesEditor.PropertiesEditor
+====================================================
+
+.. currentmodule:: BaseMod.properties.propertiesEditor
+
+.. autoclass:: PropertiesEditor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PropertiesEditor.__init__
+      ~PropertiesEditor.add_myself
+      ~PropertiesEditor.add_renderable
+      ~PropertiesEditor.border_changed
+      ~PropertiesEditor.change_extratiles_manually
+      ~PropertiesEditor.confirm_resize
+      ~PropertiesEditor.extratiles_changed
+      ~PropertiesEditor.init_scene_items
+      ~PropertiesEditor.level_resized
+      ~PropertiesEditor.mouse_left_press
+      ~PropertiesEditor.mouse_left_release
+      ~PropertiesEditor.mouse_middle_press
+      ~PropertiesEditor.mouse_middle_release
+      ~PropertiesEditor.mouse_move_event
+      ~PropertiesEditor.mouse_press_event
+      ~PropertiesEditor.mouse_release_event
+      ~PropertiesEditor.mouse_right_press
+      ~PropertiesEditor.mouse_right_release
+      ~PropertiesEditor.mouse_wheel_event
+      ~PropertiesEditor.move_event
+      ~PropertiesEditor.remove_items_from_scene
+      ~PropertiesEditor.reposition
+      ~PropertiesEditor.reposition_extra
+      ~PropertiesEditor.seed_changed
+      ~PropertiesEditor.update_params
+      ~PropertiesEditor.water_changed
+      ~PropertiesEditor.waterhandle_moved
+      ~PropertiesEditor.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PropertiesEditor.alt
+      ~PropertiesEditor.basemod
+      ~PropertiesEditor.control
+      ~PropertiesEditor.editor_pos
+      ~PropertiesEditor.layer
+      ~PropertiesEditor.level
+      ~PropertiesEditor.meta
+      ~PropertiesEditor.modifiers
+      ~PropertiesEditor.mouse_left
+      ~PropertiesEditor.mouse_pos
+      ~PropertiesEditor.mouse_right
+      ~PropertiesEditor.shift
+      ~PropertiesEditor.workscene
+      ~PropertiesEditor.zoom
+   
+   

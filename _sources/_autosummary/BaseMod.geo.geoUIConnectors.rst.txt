@@ -1,0 +1,18 @@
+BaseMod.geo.geoUIConnectors
+===========================
+
+.. automodule:: BaseMod.geo.geoUIConnectors
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      GeoSettings
+      GeoUI
+      GeoViewUI
+   

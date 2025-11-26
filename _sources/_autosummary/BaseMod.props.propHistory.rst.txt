@@ -1,0 +1,19 @@
+BaseMod.props.propHistory
+=========================
+
+.. automodule:: BaseMod.props.propHistory
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      LevelResizedProps
+      PropPlace
+      PropRemove
+      PropsMove
+   

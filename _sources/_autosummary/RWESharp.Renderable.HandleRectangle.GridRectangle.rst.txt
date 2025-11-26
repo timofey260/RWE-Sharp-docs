@@ -1,0 +1,249 @@
+RWESharp.Renderable.HandleRectangle.GridRectangle
+=================================================
+
+.. currentmodule:: RWESharp.Renderable.HandleRectangle
+
+.. autoclass:: GridRectangle
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GridRectangle.__init__
+      ~GridRectangle.acceptDrops
+      ~GridRectangle.acceptHoverEvents
+      ~GridRectangle.acceptTouchEvents
+      ~GridRectangle.acceptedMouseButtons
+      ~GridRectangle.addToIndex
+      ~GridRectangle.advance
+      ~GridRectangle.blockSignals
+      ~GridRectangle.boundingRect
+      ~GridRectangle.boundingRegion
+      ~GridRectangle.boundingRegionGranularity
+      ~GridRectangle.brush
+      ~GridRectangle.cacheMode
+      ~GridRectangle.childEvent
+      ~GridRectangle.childItems
+      ~GridRectangle.children
+      ~GridRectangle.childrenBoundingRect
+      ~GridRectangle.clearFocus
+      ~GridRectangle.clipPath
+      ~GridRectangle.collidesWithItem
+      ~GridRectangle.collidesWithPath
+      ~GridRectangle.collidingItems
+      ~GridRectangle.commonAncestorItem
+      ~GridRectangle.connect
+      ~GridRectangle.connectNotify
+      ~GridRectangle.contains
+      ~GridRectangle.contextMenuEvent
+      ~GridRectangle.cursor
+      ~GridRectangle.customEvent
+      ~GridRectangle.data
+      ~GridRectangle.deleteLater
+      ~GridRectangle.deviceTransform
+      ~GridRectangle.disconnect
+      ~GridRectangle.disconnectNotify
+      ~GridRectangle.dragEnterEvent
+      ~GridRectangle.dragLeaveEvent
+      ~GridRectangle.dragMoveEvent
+      ~GridRectangle.dropEvent
+      ~GridRectangle.dumpObjectInfo
+      ~GridRectangle.dumpObjectTree
+      ~GridRectangle.dynamicPropertyNames
+      ~GridRectangle.effectiveOpacity
+      ~GridRectangle.emit
+      ~GridRectangle.ensureVisible
+      ~GridRectangle.event
+      ~GridRectangle.eventFilter
+      ~GridRectangle.extension
+      ~GridRectangle.filtersChildEvents
+      ~GridRectangle.findChild
+      ~GridRectangle.findChildren
+      ~GridRectangle.flags
+      ~GridRectangle.focusInEvent
+      ~GridRectangle.focusItem
+      ~GridRectangle.focusOutEvent
+      ~GridRectangle.focusProxy
+      ~GridRectangle.focusScopeItem
+      ~GridRectangle.grabKeyboard
+      ~GridRectangle.grabMouse
+      ~GridRectangle.graphicsEffect
+      ~GridRectangle.group
+      ~GridRectangle.handlesChildEvents
+      ~GridRectangle.hasCursor
+      ~GridRectangle.hasFocus
+      ~GridRectangle.hide
+      ~GridRectangle.hoverEnterEvent
+      ~GridRectangle.hoverLeaveEvent
+      ~GridRectangle.hoverMoveEvent
+      ~GridRectangle.inherits
+      ~GridRectangle.inputMethodEvent
+      ~GridRectangle.inputMethodHints
+      ~GridRectangle.inputMethodQuery
+      ~GridRectangle.installEventFilter
+      ~GridRectangle.installSceneEventFilter
+      ~GridRectangle.isActive
+      ~GridRectangle.isAncestorOf
+      ~GridRectangle.isBlockedByModalPanel
+      ~GridRectangle.isClipped
+      ~GridRectangle.isEnabled
+      ~GridRectangle.isObscured
+      ~GridRectangle.isObscuredBy
+      ~GridRectangle.isPanel
+      ~GridRectangle.isQuickItemType
+      ~GridRectangle.isSelected
+      ~GridRectangle.isSignalConnected
+      ~GridRectangle.isUnderMouse
+      ~GridRectangle.isVisible
+      ~GridRectangle.isVisibleTo
+      ~GridRectangle.isWidget
+      ~GridRectangle.isWidgetType
+      ~GridRectangle.isWindow
+      ~GridRectangle.isWindowType
+      ~GridRectangle.itemChange
+      ~GridRectangle.itemTransform
+      ~GridRectangle.keyPressEvent
+      ~GridRectangle.keyReleaseEvent
+      ~GridRectangle.killTimer
+      ~GridRectangle.mapFromItem
+      ~GridRectangle.mapFromParent
+      ~GridRectangle.mapFromScene
+      ~GridRectangle.mapRectFromItem
+      ~GridRectangle.mapRectFromParent
+      ~GridRectangle.mapRectFromScene
+      ~GridRectangle.mapRectToItem
+      ~GridRectangle.mapRectToParent
+      ~GridRectangle.mapRectToScene
+      ~GridRectangle.mapToItem
+      ~GridRectangle.mapToParent
+      ~GridRectangle.mapToScene
+      ~GridRectangle.metaObject
+      ~GridRectangle.mouseDoubleClickEvent
+      ~GridRectangle.mouseMoveEvent
+      ~GridRectangle.mousePressEvent
+      ~GridRectangle.mouseReleaseEvent
+      ~GridRectangle.moveBy
+      ~GridRectangle.moveToThread
+      ~GridRectangle.objectName
+      ~GridRectangle.opacity
+      ~GridRectangle.opaqueArea
+      ~GridRectangle.paint
+      ~GridRectangle.panel
+      ~GridRectangle.panelModality
+      ~GridRectangle.parent
+      ~GridRectangle.parentItem
+      ~GridRectangle.parentObject
+      ~GridRectangle.parentWidget
+      ~GridRectangle.pen
+      ~GridRectangle.pos
+      ~GridRectangle.prepareGeometryChange
+      ~GridRectangle.property
+      ~GridRectangle.receivers
+      ~GridRectangle.rect
+      ~GridRectangle.removeEventFilter
+      ~GridRectangle.removeFromIndex
+      ~GridRectangle.removeSceneEventFilter
+      ~GridRectangle.resetTransform
+      ~GridRectangle.rotation
+      ~GridRectangle.scale
+      ~GridRectangle.scene
+      ~GridRectangle.sceneBoundingRect
+      ~GridRectangle.sceneEvent
+      ~GridRectangle.sceneEventFilter
+      ~GridRectangle.scenePos
+      ~GridRectangle.sceneTransform
+      ~GridRectangle.scroll
+      ~GridRectangle.sender
+      ~GridRectangle.senderSignalIndex
+      ~GridRectangle.setAcceptDrops
+      ~GridRectangle.setAcceptHoverEvents
+      ~GridRectangle.setAcceptTouchEvents
+      ~GridRectangle.setAcceptedMouseButtons
+      ~GridRectangle.setActive
+      ~GridRectangle.setBoundingRegionGranularity
+      ~GridRectangle.setBrush
+      ~GridRectangle.setCacheMode
+      ~GridRectangle.setCursor
+      ~GridRectangle.setData
+      ~GridRectangle.setEnabled
+      ~GridRectangle.setFiltersChildEvents
+      ~GridRectangle.setFlag
+      ~GridRectangle.setFlags
+      ~GridRectangle.setFocus
+      ~GridRectangle.setFocusProxy
+      ~GridRectangle.setGraphicsEffect
+      ~GridRectangle.setGroup
+      ~GridRectangle.setHandlesChildEvents
+      ~GridRectangle.setInputMethodHints
+      ~GridRectangle.setObjectName
+      ~GridRectangle.setOpacity
+      ~GridRectangle.setPanelModality
+      ~GridRectangle.setParent
+      ~GridRectangle.setParentItem
+      ~GridRectangle.setPen
+      ~GridRectangle.setPos
+      ~GridRectangle.setProperty
+      ~GridRectangle.setRect
+      ~GridRectangle.setRotation
+      ~GridRectangle.setScale
+      ~GridRectangle.setSelected
+      ~GridRectangle.setToolTip
+      ~GridRectangle.setTransform
+      ~GridRectangle.setTransformOriginPoint
+      ~GridRectangle.setTransformations
+      ~GridRectangle.setVisible
+      ~GridRectangle.setX
+      ~GridRectangle.setY
+      ~GridRectangle.setZValue
+      ~GridRectangle.shape
+      ~GridRectangle.show
+      ~GridRectangle.signalsBlocked
+      ~GridRectangle.stackBefore
+      ~GridRectangle.startTimer
+      ~GridRectangle.thread
+      ~GridRectangle.timerEvent
+      ~GridRectangle.toGraphicsObject
+      ~GridRectangle.toolTip
+      ~GridRectangle.topLevelItem
+      ~GridRectangle.topLevelWidget
+      ~GridRectangle.tr
+      ~GridRectangle.transform
+      ~GridRectangle.transformOriginPoint
+      ~GridRectangle.transformations
+      ~GridRectangle.type
+      ~GridRectangle.ungrabKeyboard
+      ~GridRectangle.ungrabMouse
+      ~GridRectangle.unsetCursor
+      ~GridRectangle.update
+      ~GridRectangle.updateMicroFocus
+      ~GridRectangle.wheelEvent
+      ~GridRectangle.window
+      ~GridRectangle.x
+      ~GridRectangle.y
+      ~GridRectangle.zValue
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GridRectangle.UserType
+      ~GridRectangle.destroyed
+      ~GridRectangle.getrect
+      ~GridRectangle.objectNameChanged
+      ~GridRectangle.rectChanged
+      ~GridRectangle.rectMoved
+      ~GridRectangle.staticMetaObject
+   
+   

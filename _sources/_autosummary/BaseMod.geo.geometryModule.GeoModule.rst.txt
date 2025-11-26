@@ -1,0 +1,51 @@
+BaseMod.geo.geometryModule.GeoModule
+====================================
+
+.. currentmodule:: BaseMod.geo.geometryModule
+
+.. autoclass:: GeoModule
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GeoModule.__init__
+      ~GeoModule.add_myself
+      ~GeoModule.add_renderable
+      ~GeoModule.check_beams_change
+      ~GeoModule.check_layers_change
+      ~GeoModule.check_misc_change
+      ~GeoModule.check_pipes_change
+      ~GeoModule.get_layer
+      ~GeoModule.init_module_textures
+      ~GeoModule.init_scene_items
+      ~GeoModule.level_resized
+      ~GeoModule.move_event
+      ~GeoModule.remove_items_from_scene
+      ~GeoModule.render_module
+      ~GeoModule.update_image
+      ~GeoModule.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GeoModule.basemod
+      ~GeoModule.layer
+      ~GeoModule.layerChanged
+      ~GeoModule.level
+      ~GeoModule.zoom
+   
+   

@@ -1,0 +1,19 @@
+BaseMod.properties.PropertiesHistory
+====================================
+
+.. automodule:: BaseMod.properties.PropertiesHistory
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      BorderChange
+      LevelResizedProperties
+      TileSeedChange
+      WaterChange
+   

@@ -1,0 +1,37 @@
+BaseMod.effects.effectHistory.EffectAdd
+=======================================
+
+.. currentmodule:: BaseMod.effects.effectHistory
+
+.. autoclass:: EffectAdd
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EffectAdd.__init__
+      ~EffectAdd.add_effect
+      ~EffectAdd.redo_changes
+      ~EffectAdd.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EffectAdd.basemod
+      ~EffectAdd.level
+      ~EffectAdd.manager
+   
+   

@@ -1,0 +1,107 @@
+RWESharp.Loaders.PropLoader.PropPackLoader
+==========================================
+
+.. currentmodule:: RWESharp.Loaders.PropLoader
+
+.. autoclass:: PropPackLoader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PropPackLoader.__init__
+      ~PropPackLoader.blockSignals
+      ~PropPackLoader.childEvent
+      ~PropPackLoader.children
+      ~PropPackLoader.connect
+      ~PropPackLoader.connectNotify
+      ~PropPackLoader.currentThread
+      ~PropPackLoader.customEvent
+      ~PropPackLoader.deleteLater
+      ~PropPackLoader.disconnect
+      ~PropPackLoader.disconnectNotify
+      ~PropPackLoader.dumpObjectInfo
+      ~PropPackLoader.dumpObjectTree
+      ~PropPackLoader.dynamicPropertyNames
+      ~PropPackLoader.emit
+      ~PropPackLoader.event
+      ~PropPackLoader.eventDispatcher
+      ~PropPackLoader.eventFilter
+      ~PropPackLoader.exec
+      ~PropPackLoader.exec_
+      ~PropPackLoader.exit
+      ~PropPackLoader.findChild
+      ~PropPackLoader.findChildren
+      ~PropPackLoader.idealThreadCount
+      ~PropPackLoader.inherits
+      ~PropPackLoader.installEventFilter
+      ~PropPackLoader.isCurrentThread
+      ~PropPackLoader.isFinished
+      ~PropPackLoader.isInterruptionRequested
+      ~PropPackLoader.isMainThread
+      ~PropPackLoader.isQuickItemType
+      ~PropPackLoader.isRunning
+      ~PropPackLoader.isSignalConnected
+      ~PropPackLoader.isWidgetType
+      ~PropPackLoader.isWindowType
+      ~PropPackLoader.killTimer
+      ~PropPackLoader.loopLevel
+      ~PropPackLoader.metaObject
+      ~PropPackLoader.moveToThread
+      ~PropPackLoader.msleep
+      ~PropPackLoader.objectName
+      ~PropPackLoader.parent
+      ~PropPackLoader.priority
+      ~PropPackLoader.property
+      ~PropPackLoader.quit
+      ~PropPackLoader.receivers
+      ~PropPackLoader.removeEventFilter
+      ~PropPackLoader.requestInterruption
+      ~PropPackLoader.run
+      ~PropPackLoader.sender
+      ~PropPackLoader.senderSignalIndex
+      ~PropPackLoader.serviceLevel
+      ~PropPackLoader.setEventDispatcher
+      ~PropPackLoader.setObjectName
+      ~PropPackLoader.setParent
+      ~PropPackLoader.setPriority
+      ~PropPackLoader.setProperty
+      ~PropPackLoader.setServiceLevel
+      ~PropPackLoader.setStackSize
+      ~PropPackLoader.setTerminationEnabled
+      ~PropPackLoader.signalsBlocked
+      ~PropPackLoader.sleep
+      ~PropPackLoader.stackSize
+      ~PropPackLoader.start
+      ~PropPackLoader.startTimer
+      ~PropPackLoader.terminate
+      ~PropPackLoader.thread
+      ~PropPackLoader.timerEvent
+      ~PropPackLoader.tr
+      ~PropPackLoader.usleep
+      ~PropPackLoader.wait
+      ~PropPackLoader.yieldCurrentThread
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PropPackLoader.destroyed
+      ~PropPackLoader.finished
+      ~PropPackLoader.objectNameChanged
+      ~PropPackLoader.started
+      ~PropPackLoader.staticMetaObject
+   
+   

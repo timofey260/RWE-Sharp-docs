@@ -1,0 +1,36 @@
+RWESharp.Modify.Theme.Theme
+===========================
+
+.. currentmodule:: RWESharp.Modify.Theme
+
+.. autoclass:: Theme
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Theme.__init__
+      ~Theme.add_myself
+      ~Theme.theme_disable
+      ~Theme.theme_enable
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Theme.app
+      ~Theme.config_name
+   
+   

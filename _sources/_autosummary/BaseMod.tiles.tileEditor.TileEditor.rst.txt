@@ -1,0 +1,71 @@
+BaseMod.tiles.tileEditor.TileEditor
+===================================
+
+.. currentmodule:: BaseMod.tiles.tileEditor
+
+.. autoclass:: TileEditor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~TileEditor.__init__
+      ~TileEditor.add_myself
+      ~TileEditor.add_renderable
+      ~TileEditor.add_tile
+      ~TileEditor.hide_collisions
+      ~TileEditor.init_scene_items
+      ~TileEditor.level_resized
+      ~TileEditor.mouse_left_press
+      ~TileEditor.mouse_left_release
+      ~TileEditor.mouse_middle_press
+      ~TileEditor.mouse_middle_release
+      ~TileEditor.mouse_move_event
+      ~TileEditor.mouse_press_event
+      ~TileEditor.mouse_release_event
+      ~TileEditor.mouse_right_press
+      ~TileEditor.mouse_right_release
+      ~TileEditor.mouse_wheel_event
+      ~TileEditor.move_event
+      ~TileEditor.redraw_tile
+      ~TileEditor.remove_items_from_scene
+      ~TileEditor.tool_changed
+      ~TileEditor.tool_specific_press
+      ~TileEditor.tool_specific_release
+      ~TileEditor.tool_specific_update
+      ~TileEditor.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TileEditor.alt
+      ~TileEditor.basemod
+      ~TileEditor.control
+      ~TileEditor.editor_pos
+      ~TileEditor.layer
+      ~TileEditor.level
+      ~TileEditor.meta
+      ~TileEditor.modifiers
+      ~TileEditor.mouse_left
+      ~TileEditor.mouse_pos
+      ~TileEditor.mouse_right
+      ~TileEditor.shift
+      ~TileEditor.strict
+      ~TileEditor.tile_preview_option
+      ~TileEditor.workscene
+      ~TileEditor.zoom
+   
+   

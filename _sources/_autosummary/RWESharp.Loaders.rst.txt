@@ -1,0 +1,23 @@
+RWESharp.Loaders
+================
+
+.. automodule:: RWESharp.Loaders
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   Database
+   Effect
+   EffectLoader
+   Loader
+   Prop
+   PropLoader
+   Tile
+   TileLoader

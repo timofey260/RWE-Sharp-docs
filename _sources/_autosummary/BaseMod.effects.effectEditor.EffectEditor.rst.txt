@@ -1,0 +1,64 @@
+BaseMod.effects.effectEditor.EffectEditor
+=========================================
+
+.. currentmodule:: BaseMod.effects.effectEditor
+
+.. autoclass:: EffectEditor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~EffectEditor.__init__
+      ~EffectEditor.add_myself
+      ~EffectEditor.add_renderable
+      ~EffectEditor.init_scene_items
+      ~EffectEditor.level_resized
+      ~EffectEditor.mouse_left_press
+      ~EffectEditor.mouse_left_release
+      ~EffectEditor.mouse_middle_press
+      ~EffectEditor.mouse_middle_release
+      ~EffectEditor.mouse_move_event
+      ~EffectEditor.mouse_press_event
+      ~EffectEditor.mouse_release_event
+      ~EffectEditor.mouse_right_press
+      ~EffectEditor.mouse_right_release
+      ~EffectEditor.mouse_wheel_event
+      ~EffectEditor.move_event
+      ~EffectEditor.remove_items_from_scene
+      ~EffectEditor.select_effect
+      ~EffectEditor.update_brush
+      ~EffectEditor.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EffectEditor.alt
+      ~EffectEditor.basemod
+      ~EffectEditor.control
+      ~EffectEditor.editor_pos
+      ~EffectEditor.layer
+      ~EffectEditor.level
+      ~EffectEditor.meta
+      ~EffectEditor.modifiers
+      ~EffectEditor.mouse_left
+      ~EffectEditor.mouse_pos
+      ~EffectEditor.mouse_right
+      ~EffectEditor.shift
+      ~EffectEditor.workscene
+      ~EffectEditor.zoom
+   
+   

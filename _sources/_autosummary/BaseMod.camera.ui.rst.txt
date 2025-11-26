@@ -1,0 +1,18 @@
+BaseMod.camera.ui
+=================
+
+.. automodule:: BaseMod.camera.ui
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   camera_vis_ui
+   cameras_ui
+   camerasettings_ui

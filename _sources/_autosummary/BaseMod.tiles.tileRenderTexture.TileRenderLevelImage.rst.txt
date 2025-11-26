@@ -1,0 +1,60 @@
+BaseMod.tiles.tileRenderTexture.TileRenderLevelImage
+====================================================
+
+.. currentmodule:: BaseMod.tiles.tileRenderTexture
+
+.. autoclass:: TileRenderLevelImage
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~TileRenderLevelImage.__init__
+      ~TileRenderLevelImage.add_material_graphics
+      ~TileRenderLevelImage.add_tile_graphics
+      ~TileRenderLevelImage.change_material_border
+      ~TileRenderLevelImage.clear_scene
+      ~TileRenderLevelImage.draw_layer
+      ~TileRenderLevelImage.draw_tile
+      ~TileRenderLevelImage.fill_scene
+      ~TileRenderLevelImage.init_graphics
+      ~TileRenderLevelImage.level_resized
+      ~TileRenderLevelImage.move_event
+      ~TileRenderLevelImage.post_init_graphics
+      ~TileRenderLevelImage.redraw
+      ~TileRenderLevelImage.remove_graphics
+      ~TileRenderLevelImage.remove_myself
+      ~TileRenderLevelImage.render_layer
+      ~TileRenderLevelImage.render_rect
+      ~TileRenderLevelImage.setOpacity
+      ~TileRenderLevelImage.setPixmap
+      ~TileRenderLevelImage.setPos
+      ~TileRenderLevelImage.setScale
+      ~TileRenderLevelImage.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TileRenderLevelImage.actual_offset
+      ~TileRenderLevelImage.is_initiated_grapgics
+      ~TileRenderLevelImage.level
+      ~TileRenderLevelImage.manager
+      ~TileRenderLevelImage.painter_enabled
+      ~TileRenderLevelImage.pos
+      ~TileRenderLevelImage.viewport
+      ~TileRenderLevelImage.zoom
+   
+   

@@ -1,0 +1,22 @@
+BaseMod.tiles.tileHistory
+=========================
+
+.. automodule:: BaseMod.tiles.tileHistory
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      DefaultMaterialChange
+      LevelResizedTiles
+      TileBrush
+      TileEllipse
+      TileLine
+      TilePen
+      TileRectangle
+   

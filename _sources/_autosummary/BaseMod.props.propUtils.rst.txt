@@ -1,0 +1,15 @@
+BaseMod.props.propUtils
+=======================
+
+.. automodule:: BaseMod.props.propUtils
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      copyprop
+      find_mid
+   

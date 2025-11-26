@@ -1,0 +1,15 @@
+RWESharp.Core.ModLoader
+=======================
+
+.. automodule:: RWESharp.Core.ModLoader
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      load_mod
+      old_load_mod
+   

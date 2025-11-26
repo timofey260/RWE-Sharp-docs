@@ -1,0 +1,24 @@
+RWESharp.Core.TreeElement
+=========================
+
+.. automodule:: RWESharp.Core.TreeElement
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      get_hotkeys_from_pattern
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      HotkeyElement
+      SettingElement
+      TreeElement
+   

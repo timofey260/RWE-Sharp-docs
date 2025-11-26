@@ -1,0 +1,36 @@
+BaseMod.properties.PropertiesHistory.LevelResizedProperties
+===========================================================
+
+.. currentmodule:: BaseMod.properties.PropertiesHistory
+
+.. autoclass:: LevelResizedProperties
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~LevelResizedProperties.__init__
+      ~LevelResizedProperties.redo_changes
+      ~LevelResizedProperties.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LevelResizedProperties.basemod
+      ~LevelResizedProperties.level
+      ~LevelResizedProperties.manager
+   
+   

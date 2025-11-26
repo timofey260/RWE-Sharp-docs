@@ -1,0 +1,107 @@
+RWESharp.Loaders.PropLoader.Tile2PropLoader
+===========================================
+
+.. currentmodule:: RWESharp.Loaders.PropLoader
+
+.. autoclass:: Tile2PropLoader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Tile2PropLoader.__init__
+      ~Tile2PropLoader.blockSignals
+      ~Tile2PropLoader.childEvent
+      ~Tile2PropLoader.children
+      ~Tile2PropLoader.connect
+      ~Tile2PropLoader.connectNotify
+      ~Tile2PropLoader.currentThread
+      ~Tile2PropLoader.customEvent
+      ~Tile2PropLoader.deleteLater
+      ~Tile2PropLoader.disconnect
+      ~Tile2PropLoader.disconnectNotify
+      ~Tile2PropLoader.dumpObjectInfo
+      ~Tile2PropLoader.dumpObjectTree
+      ~Tile2PropLoader.dynamicPropertyNames
+      ~Tile2PropLoader.emit
+      ~Tile2PropLoader.event
+      ~Tile2PropLoader.eventDispatcher
+      ~Tile2PropLoader.eventFilter
+      ~Tile2PropLoader.exec
+      ~Tile2PropLoader.exec_
+      ~Tile2PropLoader.exit
+      ~Tile2PropLoader.findChild
+      ~Tile2PropLoader.findChildren
+      ~Tile2PropLoader.idealThreadCount
+      ~Tile2PropLoader.inherits
+      ~Tile2PropLoader.installEventFilter
+      ~Tile2PropLoader.isCurrentThread
+      ~Tile2PropLoader.isFinished
+      ~Tile2PropLoader.isInterruptionRequested
+      ~Tile2PropLoader.isMainThread
+      ~Tile2PropLoader.isQuickItemType
+      ~Tile2PropLoader.isRunning
+      ~Tile2PropLoader.isSignalConnected
+      ~Tile2PropLoader.isWidgetType
+      ~Tile2PropLoader.isWindowType
+      ~Tile2PropLoader.killTimer
+      ~Tile2PropLoader.loopLevel
+      ~Tile2PropLoader.metaObject
+      ~Tile2PropLoader.moveToThread
+      ~Tile2PropLoader.msleep
+      ~Tile2PropLoader.objectName
+      ~Tile2PropLoader.parent
+      ~Tile2PropLoader.priority
+      ~Tile2PropLoader.property
+      ~Tile2PropLoader.quit
+      ~Tile2PropLoader.receivers
+      ~Tile2PropLoader.removeEventFilter
+      ~Tile2PropLoader.requestInterruption
+      ~Tile2PropLoader.run
+      ~Tile2PropLoader.sender
+      ~Tile2PropLoader.senderSignalIndex
+      ~Tile2PropLoader.serviceLevel
+      ~Tile2PropLoader.setEventDispatcher
+      ~Tile2PropLoader.setObjectName
+      ~Tile2PropLoader.setParent
+      ~Tile2PropLoader.setPriority
+      ~Tile2PropLoader.setProperty
+      ~Tile2PropLoader.setServiceLevel
+      ~Tile2PropLoader.setStackSize
+      ~Tile2PropLoader.setTerminationEnabled
+      ~Tile2PropLoader.signalsBlocked
+      ~Tile2PropLoader.sleep
+      ~Tile2PropLoader.stackSize
+      ~Tile2PropLoader.start
+      ~Tile2PropLoader.startTimer
+      ~Tile2PropLoader.terminate
+      ~Tile2PropLoader.thread
+      ~Tile2PropLoader.timerEvent
+      ~Tile2PropLoader.tr
+      ~Tile2PropLoader.usleep
+      ~Tile2PropLoader.wait
+      ~Tile2PropLoader.yieldCurrentThread
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Tile2PropLoader.destroyed
+      ~Tile2PropLoader.finished
+      ~Tile2PropLoader.objectNameChanged
+      ~Tile2PropLoader.started
+      ~Tile2PropLoader.staticMetaObject
+   
+   

@@ -1,0 +1,46 @@
+BaseMod.grid.gridModule.GridModule
+==================================
+
+.. currentmodule:: BaseMod.grid.gridModule
+
+.. autoclass:: GridModule
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GridModule.__init__
+      ~GridModule.add_myself
+      ~GridModule.add_renderable
+      ~GridModule.change_border
+      ~GridModule.check_change
+      ~GridModule.init_scene_items
+      ~GridModule.level_resized
+      ~GridModule.move_event
+      ~GridModule.remove_items_from_scene
+      ~GridModule.render_module
+      ~GridModule.update_water
+      ~GridModule.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GridModule.basemod
+      ~GridModule.layer
+      ~GridModule.level
+      ~GridModule.zoom
+   
+   

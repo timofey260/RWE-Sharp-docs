@@ -1,0 +1,57 @@
+BaseMod.camera.cameraRenderable.RenderCamera
+============================================
+
+.. currentmodule:: BaseMod.camera.cameraRenderable
+
+.. autoclass:: RenderCamera
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RenderCamera.__init__
+      ~RenderCamera.assign_depth
+      ~RenderCamera.change_visibility
+      ~RenderCamera.edit_camera
+      ~RenderCamera.fix_offset
+      ~RenderCamera.init_graphics
+      ~RenderCamera.level_resized
+      ~RenderCamera.move_event
+      ~RenderCamera.movequad
+      ~RenderCamera.paintselected
+      ~RenderCamera.post_init_graphics
+      ~RenderCamera.remove_graphics
+      ~RenderCamera.remove_myself
+      ~RenderCamera.setOpacity
+      ~RenderCamera.setPos
+      ~RenderCamera.setScale
+      ~RenderCamera.update_camera
+      ~RenderCamera.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RenderCamera.actual_offset
+      ~RenderCamera.camerarect
+      ~RenderCamera.is_initiated_grapgics
+      ~RenderCamera.level
+      ~RenderCamera.manager
+      ~RenderCamera.pos
+      ~RenderCamera.rectsides
+      ~RenderCamera.viewport
+      ~RenderCamera.zoom
+   
+   

@@ -1,0 +1,26 @@
+BaseMod.props.RopePhysics
+=========================
+
+.. automodule:: BaseMod.props.RopePhysics
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      Diag
+      DiagWI
+      MoveToPoint
+      lerp
+      restrict
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      RopeModel
+   

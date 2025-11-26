@@ -1,0 +1,39 @@
+BaseMod.geo.geoHistory.GERectChange
+===================================
+
+.. currentmodule:: BaseMod.geo.geoHistory
+
+.. autoclass:: GERectChange
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GERectChange.__init__
+      ~GERectChange.inborder
+      ~GERectChange.ishollow
+      ~GERectChange.redo_changes
+      ~GERectChange.redraw
+      ~GERectChange.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GERectChange.basemod
+      ~GERectChange.level
+      ~GERectChange.manager
+   
+   

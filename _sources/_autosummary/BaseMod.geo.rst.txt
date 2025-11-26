@@ -1,0 +1,24 @@
+BaseMod.geo
+===========
+
+.. automodule:: BaseMod.geo
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   GeoConsts
+   geoControls
+   geoHistory
+   geoRenderTexture
+   geoUIConnectors
+   geoUtils
+   geometryEditor
+   geometryModule
+   ui

@@ -1,0 +1,82 @@
+RWESharp.Configurable.Configurable.Configurable
+===============================================
+
+.. currentmodule:: RWESharp.Configurable.Configurable
+
+.. autoclass:: Configurable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Configurable.__init__
+      ~Configurable.blockSignals
+      ~Configurable.childEvent
+      ~Configurable.children
+      ~Configurable.connect
+      ~Configurable.connectNotify
+      ~Configurable.customEvent
+      ~Configurable.deleteLater
+      ~Configurable.disconnect
+      ~Configurable.disconnectNotify
+      ~Configurable.dumpObjectInfo
+      ~Configurable.dumpObjectTree
+      ~Configurable.dynamicPropertyNames
+      ~Configurable.emit
+      ~Configurable.event
+      ~Configurable.eventFilter
+      ~Configurable.findChild
+      ~Configurable.findChildren
+      ~Configurable.inherits
+      ~Configurable.installEventFilter
+      ~Configurable.isQuickItemType
+      ~Configurable.isSignalConnected
+      ~Configurable.isWidgetType
+      ~Configurable.isWindowType
+      ~Configurable.killTimer
+      ~Configurable.link_mod
+      ~Configurable.load_str_value
+      ~Configurable.metaObject
+      ~Configurable.moveToThread
+      ~Configurable.objectName
+      ~Configurable.parent
+      ~Configurable.property
+      ~Configurable.receivers
+      ~Configurable.removeEventFilter
+      ~Configurable.reset_value
+      ~Configurable.save_str_value
+      ~Configurable.sender
+      ~Configurable.senderSignalIndex
+      ~Configurable.setObjectName
+      ~Configurable.setParent
+      ~Configurable.setProperty
+      ~Configurable.signalsBlocked
+      ~Configurable.startTimer
+      ~Configurable.thread
+      ~Configurable.timerEvent
+      ~Configurable.tr
+      ~Configurable.update_value
+      ~Configurable.update_value_default
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Configurable.destroyed
+      ~Configurable.objectNameChanged
+      ~Configurable.staticMetaObject
+      ~Configurable.valueChanged
+   
+   

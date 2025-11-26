@@ -1,0 +1,17 @@
+BaseMod.props.propUIConnectors
+==============================
+
+.. automodule:: BaseMod.props.propUIConnectors
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      PropsUI
+      PropsViewUI
+   

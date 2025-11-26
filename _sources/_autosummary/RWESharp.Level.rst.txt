@@ -1,0 +1,19 @@
+RWESharp.Level
+==============
+
+.. automodule:: RWESharp.Level
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   CustomLevelData
+   LevelPart
+   RWELevel
+   RWLParser

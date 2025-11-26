@@ -1,0 +1,36 @@
+BaseMod.camera.cameraHistory.RemoveCamera
+=========================================
+
+.. currentmodule:: BaseMod.camera.cameraHistory
+
+.. autoclass:: RemoveCamera
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RemoveCamera.__init__
+      ~RemoveCamera.redo_changes
+      ~RemoveCamera.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RemoveCamera.basemod
+      ~RemoveCamera.level
+      ~RemoveCamera.manager
+   
+   

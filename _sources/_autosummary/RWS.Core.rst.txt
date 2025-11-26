@@ -1,0 +1,8 @@
+RWS.Core
+========
+
+.. automodule:: RWS.Core
+   :members:
+   :undoc-members:
+
+   

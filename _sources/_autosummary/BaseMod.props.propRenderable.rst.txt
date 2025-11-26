@@ -1,0 +1,16 @@
+BaseMod.props.propRenderable
+============================
+
+.. automodule:: BaseMod.props.propRenderable
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      PropRenderable
+   

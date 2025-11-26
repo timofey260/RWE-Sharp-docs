@@ -1,0 +1,16 @@
+RWESharp.ui.mainuiconnector
+===========================
+
+.. automodule:: RWESharp.ui.mainuiconnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      MainWindow
+   

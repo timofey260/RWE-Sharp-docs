@@ -1,0 +1,24 @@
+RWESharp.ui
+===========
+
+.. automodule:: RWESharp.ui
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   FunnyVideo
+   KeyDialog
+   aboutuiconnector
+   hotkeysuiconnector
+   mainuiconnector
+   res_rc
+   settingsuiconnector
+   splashuiconnector
+   uiscripts

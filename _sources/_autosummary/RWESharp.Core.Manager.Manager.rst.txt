@@ -1,0 +1,74 @@
+RWESharp.Core.Manager.Manager
+=============================
+
+.. currentmodule:: RWESharp.Core.Manager
+
+.. autoclass:: Manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Manager.__init__
+      ~Manager.add_editor
+      ~Manager.add_hotkeytree
+      ~Manager.add_quick_option
+      ~Manager.add_setting
+      ~Manager.add_view
+      ~Manager.change_editor
+      ~Manager.change_editor_name
+      ~Manager.close
+      ~Manager.init_editors
+      ~Manager.init_mods
+      ~Manager.mount_editor
+      ~Manager.open_level
+      ~Manager.open_level_from_path
+      ~Manager.pre_init_mods
+      ~Manager.redo
+      ~Manager.save_level
+      ~Manager.save_level_as
+      ~Manager.set_status
+      ~Manager.undo
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Manager.edit_menu
+      ~Manager.editor
+      ~Manager.editors_menu
+      ~Manager.level_height
+      ~Manager.level_width
+      ~Manager.menu_bar
+      ~Manager.selected_viewport
+      ~Manager.tool_menu
+      ~Manager.view_menu
+      ~Manager.window_menu
+      ~Manager.window
+      ~Manager.application
+      ~Manager.tiles
+      ~Manager.props
+      ~Manager.effects
+      ~Manager.prop_colors
+      ~Manager.editors
+      ~Manager.mods
+      ~Manager.config
+      ~Manager.setting_trees
+      ~Manager.hotkey_trees
+      ~Manager.mod_types
+      ~Manager.layer
+      ~Manager.basemod
+   
+   

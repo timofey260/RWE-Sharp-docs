@@ -1,0 +1,48 @@
+BaseMod.tiles.tileModule.TileModule
+===================================
+
+.. currentmodule:: BaseMod.tiles.tileModule
+
+.. autoclass:: TileModule
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~TileModule.__init__
+      ~TileModule.add_myself
+      ~TileModule.add_renderable
+      ~TileModule.change_border
+      ~TileModule.check_layers_change
+      ~TileModule.get_layer
+      ~TileModule.init_module_textures
+      ~TileModule.init_scene_items
+      ~TileModule.level_resized
+      ~TileModule.move_event
+      ~TileModule.redraw_option
+      ~TileModule.remove_items_from_scene
+      ~TileModule.render_module
+      ~TileModule.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TileModule.basemod
+      ~TileModule.layer
+      ~TileModule.level
+      ~TileModule.zoom
+   
+   

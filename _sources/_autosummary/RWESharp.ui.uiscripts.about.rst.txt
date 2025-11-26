@@ -1,0 +1,16 @@
+RWESharp.ui.uiscripts.about
+===========================
+
+.. automodule:: RWESharp.ui.uiscripts.about
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_About
+   

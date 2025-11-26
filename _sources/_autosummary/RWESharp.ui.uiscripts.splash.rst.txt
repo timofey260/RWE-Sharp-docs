@@ -1,0 +1,16 @@
+RWESharp.ui.uiscripts.splash
+============================
+
+.. automodule:: RWESharp.ui.uiscripts.splash
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_Splash
+   

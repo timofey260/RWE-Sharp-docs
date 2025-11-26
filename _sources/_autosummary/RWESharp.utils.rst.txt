@@ -1,0 +1,41 @@
+RWESharp.utils
+==============
+
+.. automodule:: RWESharp.utils
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      circle2rect
+      closest_line
+      color_lerp
+      distance
+      draw_ellipse
+      draw_line
+      draw_rect
+      fit_rect
+      inject_method
+      insensitive_path
+      lerp
+      log
+      modify_path_url
+      paint_svg
+      paint_svg_qicon
+      paint_svg_qpixmap
+      point2polar
+      polar2point
+      remap
+      rotate_point
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Delegate
+   

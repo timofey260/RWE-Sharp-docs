@@ -1,0 +1,22 @@
+BaseMod.effects
+===============
+
+.. automodule:: BaseMod.effects
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   effectEditor
+   effectExplorer
+   effectHistory
+   effectModule
+   effectRenderTexture
+   effectsUIConnectors
+   ui

@@ -1,0 +1,76 @@
+BaseMod.camera.cameraEditor.CameraEditor
+========================================
+
+.. currentmodule:: BaseMod.camera.cameraEditor
+
+.. autoclass:: CameraEditor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~CameraEditor.__init__
+      ~CameraEditor.add_camera
+      ~CameraEditor.add_handles
+      ~CameraEditor.add_myself
+      ~CameraEditor.add_renderable
+      ~CameraEditor.clear_handles
+      ~CameraEditor.finishmove
+      ~CameraEditor.finishmovequad
+      ~CameraEditor.init_scene_items
+      ~CameraEditor.level_resized
+      ~CameraEditor.mouse_left_press
+      ~CameraEditor.mouse_left_release
+      ~CameraEditor.mouse_middle_press
+      ~CameraEditor.mouse_middle_release
+      ~CameraEditor.mouse_move_event
+      ~CameraEditor.mouse_press_event
+      ~CameraEditor.mouse_release_event
+      ~CameraEditor.mouse_right_press
+      ~CameraEditor.mouse_right_release
+      ~CameraEditor.mouse_wheel_event
+      ~CameraEditor.move_down
+      ~CameraEditor.move_event
+      ~CameraEditor.move_selected
+      ~CameraEditor.move_up
+      ~CameraEditor.quad_moved
+      ~CameraEditor.remove_cameras
+      ~CameraEditor.remove_items_from_scene
+      ~CameraEditor.reset_selection
+      ~CameraEditor.select_indexes
+      ~CameraEditor.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CameraEditor.alt
+      ~CameraEditor.basemod
+      ~CameraEditor.cameraindexes
+      ~CameraEditor.cameras
+      ~CameraEditor.control
+      ~CameraEditor.editor_pos
+      ~CameraEditor.layer
+      ~CameraEditor.level
+      ~CameraEditor.meta
+      ~CameraEditor.modifiers
+      ~CameraEditor.mouse_left
+      ~CameraEditor.mouse_pos
+      ~CameraEditor.mouse_right
+      ~CameraEditor.shift
+      ~CameraEditor.workscene
+      ~CameraEditor.zoom
+   
+   

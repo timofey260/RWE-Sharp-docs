@@ -1,0 +1,49 @@
+RWESharp.Renderable.RenderList.RenderList
+=========================================
+
+.. currentmodule:: RWESharp.Renderable.RenderList
+
+.. autoclass:: RenderList
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RenderList.__init__
+      ~RenderList.assign_depth
+      ~RenderList.init_graphics
+      ~RenderList.level_resized
+      ~RenderList.move_event
+      ~RenderList.post_init_graphics
+      ~RenderList.remove_graphics
+      ~RenderList.remove_myself
+      ~RenderList.setOpacity
+      ~RenderList.setPos
+      ~RenderList.setScale
+      ~RenderList.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RenderList.actual_offset
+      ~RenderList.is_initiated_grapgics
+      ~RenderList.level
+      ~RenderList.manager
+      ~RenderList.pos
+      ~RenderList.viewport
+      ~RenderList.zoom
+   
+   

@@ -1,0 +1,24 @@
+RWESharp.Loaders.Tile
+=====================
+
+.. automodule:: RWESharp.Loaders.Tile
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      color_colortable
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Tile
+      TileCategory
+      Tiles
+   

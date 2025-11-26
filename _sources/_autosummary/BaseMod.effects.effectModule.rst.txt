@@ -1,0 +1,16 @@
+BaseMod.effects.effectModule
+============================
+
+.. automodule:: BaseMod.effects.effectModule
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      EffectsModule
+   

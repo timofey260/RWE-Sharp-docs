@@ -1,0 +1,15 @@
+RWESharp.ui.res\_rc
+===================
+
+.. automodule:: RWESharp.ui.res_rc
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      qCleanupResources
+      qInitResources
+   

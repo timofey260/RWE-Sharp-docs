@@ -1,0 +1,19 @@
+RWESharp.Core.lingoIO
+=====================
+
+.. automodule:: RWESharp.Core.lingoIO
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      fromarr
+      frompoint
+      makearr
+      point
+      tojson
+      tolingo
+   

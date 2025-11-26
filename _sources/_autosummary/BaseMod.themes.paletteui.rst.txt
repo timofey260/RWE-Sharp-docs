@@ -1,0 +1,16 @@
+BaseMod.themes.paletteui
+========================
+
+.. automodule:: BaseMod.themes.paletteui
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_Paletteui
+   

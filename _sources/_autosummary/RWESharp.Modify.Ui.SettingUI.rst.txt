@@ -1,0 +1,37 @@
+RWESharp.Modify.Ui.SettingUI
+============================
+
+.. currentmodule:: RWESharp.Modify.Ui
+
+.. autoclass:: SettingUI
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~SettingUI.__init__
+      ~SettingUI.apply_values
+      ~SettingUI.init_ui
+      ~SettingUI.reset_values
+      ~SettingUI.reset_values_default
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SettingUI.basemod
+      ~SettingUI.is_changed
+   
+   

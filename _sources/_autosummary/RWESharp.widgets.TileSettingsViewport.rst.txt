@@ -1,0 +1,16 @@
+RWESharp.widgets.TileSettingsViewport
+=====================================
+
+.. automodule:: RWESharp.widgets.TileSettingsViewport
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      TileSettingsViewport
+   

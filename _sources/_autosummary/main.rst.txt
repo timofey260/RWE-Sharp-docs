@@ -1,0 +1,14 @@
+﻿main
+====
+
+.. automodule:: main
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      main
+   

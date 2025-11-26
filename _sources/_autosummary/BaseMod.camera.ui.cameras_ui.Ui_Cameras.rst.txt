@@ -1,0 +1,28 @@
+BaseMod.camera.ui.cameras\_ui.Ui\_Cameras
+=========================================
+
+.. currentmodule:: BaseMod.camera.ui.cameras_ui
+
+.. autoclass:: Ui_Cameras
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Ui_Cameras.__init__
+      ~Ui_Cameras.retranslateUi
+      ~Ui_Cameras.setupUi
+   
+   
+
+   
+   
+   

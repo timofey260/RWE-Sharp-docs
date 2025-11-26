@@ -1,0 +1,18 @@
+BaseMod.ui
+==========
+
+.. automodule:: BaseMod.ui
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   createcategory_ui
+   explorer_ui
+   itemaction_ui

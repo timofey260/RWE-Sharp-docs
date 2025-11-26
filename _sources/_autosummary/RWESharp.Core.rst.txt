@@ -1,0 +1,25 @@
+RWESharp.Core
+=============
+
+.. automodule:: RWESharp.Core
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   Application
+   Config
+   Exceptions
+   HistorySystem
+   ItemData
+   LevelRenderer
+   Manager
+   ModLoader
+   TreeElement
+   lingoIO

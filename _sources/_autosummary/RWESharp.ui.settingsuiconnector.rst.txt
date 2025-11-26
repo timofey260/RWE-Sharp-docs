@@ -1,0 +1,16 @@
+RWESharp.ui.settingsuiconnector
+===============================
+
+.. automodule:: RWESharp.ui.settingsuiconnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      SettingsDialogUI
+   

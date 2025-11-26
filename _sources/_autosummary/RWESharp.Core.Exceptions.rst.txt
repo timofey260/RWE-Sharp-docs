@@ -1,0 +1,16 @@
+RWESharp.Core.Exceptions
+========================
+
+.. automodule:: RWESharp.Core.Exceptions
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+      :toctree:
+   
+      FileNotCompatible
+      FileStorageError
+   

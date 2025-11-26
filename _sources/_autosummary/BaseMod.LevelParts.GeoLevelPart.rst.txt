@@ -1,0 +1,42 @@
+BaseMod.LevelParts.GeoLevelPart
+===============================
+
+.. currentmodule:: BaseMod.LevelParts
+
+.. autoclass:: GeoLevelPart
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GeoLevelPart.__init__
+      ~GeoLevelPart.byte2stack
+      ~GeoLevelPart.getlevelgeo
+      ~GeoLevelPart.getlevelgeo_all
+      ~GeoLevelPart.level_resized
+      ~GeoLevelPart.load_level
+      ~GeoLevelPart.save_level
+      ~GeoLevelPart.setlevelgeo
+      ~GeoLevelPart.stack2byte
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GeoLevelPart.height
+      ~GeoLevelPart.manager
+      ~GeoLevelPart.width
+   
+   

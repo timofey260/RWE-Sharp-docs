@@ -1,0 +1,16 @@
+BaseMod.themes.preferencesuiconnector
+=====================================
+
+.. automodule:: BaseMod.themes.preferencesuiconnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      PreferencesUI
+   

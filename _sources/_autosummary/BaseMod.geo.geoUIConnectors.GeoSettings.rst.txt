@@ -1,0 +1,38 @@
+BaseMod.geo.geoUIConnectors.GeoSettings
+=======================================
+
+.. currentmodule:: BaseMod.geo.geoUIConnectors
+
+.. autoclass:: GeoSettings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~GeoSettings.__init__
+      ~GeoSettings.apply_values
+      ~GeoSettings.change_spritesheet
+      ~GeoSettings.init_ui
+      ~GeoSettings.reset_values
+      ~GeoSettings.reset_values_default
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GeoSettings.basemod
+      ~GeoSettings.is_changed
+   
+   

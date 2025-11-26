@@ -1,0 +1,16 @@
+BaseMod.grid.gridUIConnector
+============================
+
+.. automodule:: BaseMod.grid.gridUIConnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      GridView
+   

@@ -1,0 +1,82 @@
+RWESharp.Loaders.Tile.Tiles
+===========================
+
+.. currentmodule:: RWESharp.Loaders.Tile
+
+.. autoclass:: Tiles
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Tiles.__init__
+      ~Tiles.add_custom_tiles
+      ~Tiles.all_tiles
+      ~Tiles.blockSignals
+      ~Tiles.childEvent
+      ~Tiles.children
+      ~Tiles.connect
+      ~Tiles.connectNotify
+      ~Tiles.customEvent
+      ~Tiles.deleteLater
+      ~Tiles.disconnect
+      ~Tiles.disconnectNotify
+      ~Tiles.dumpObjectInfo
+      ~Tiles.dumpObjectTree
+      ~Tiles.dynamicPropertyNames
+      ~Tiles.emit
+      ~Tiles.event
+      ~Tiles.eventFilter
+      ~Tiles.findChild
+      ~Tiles.findChildren
+      ~Tiles.find_category
+      ~Tiles.find_tile
+      ~Tiles.inherits
+      ~Tiles.installEventFilter
+      ~Tiles.isQuickItemType
+      ~Tiles.isSignalConnected
+      ~Tiles.isWidgetType
+      ~Tiles.isWindowType
+      ~Tiles.killTimer
+      ~Tiles.metaObject
+      ~Tiles.moveToThread
+      ~Tiles.objectName
+      ~Tiles.parent
+      ~Tiles.property
+      ~Tiles.receivers
+      ~Tiles.removeEventFilter
+      ~Tiles.sender
+      ~Tiles.senderSignalIndex
+      ~Tiles.setObjectName
+      ~Tiles.setParent
+      ~Tiles.setProperty
+      ~Tiles.signalsBlocked
+      ~Tiles.startTimer
+      ~Tiles.thread
+      ~Tiles.timerEvent
+      ~Tiles.tr
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Tiles.categories
+      ~Tiles.categories_nocustom
+      ~Tiles.destroyed
+      ~Tiles.objectNameChanged
+      ~Tiles.staticMetaObject
+      ~Tiles.tileschanged
+   
+   

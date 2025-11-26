@@ -1,0 +1,16 @@
+BaseMod.properties.ui
+=====================
+
+.. automodule:: BaseMod.properties.ui
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   properties_ui

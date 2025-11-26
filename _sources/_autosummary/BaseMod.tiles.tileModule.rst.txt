@@ -1,0 +1,16 @@
+BaseMod.tiles.tileModule
+========================
+
+.. automodule:: BaseMod.tiles.tileModule
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      TileModule
+   

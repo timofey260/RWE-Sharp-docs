@@ -1,0 +1,16 @@
+RWESharp.Renderable.RenderEllipse
+=================================
+
+.. automodule:: RWESharp.Renderable.RenderEllipse
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      RenderEllipse
+   

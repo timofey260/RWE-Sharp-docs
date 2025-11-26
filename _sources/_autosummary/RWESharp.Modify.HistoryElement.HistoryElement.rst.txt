@@ -1,0 +1,36 @@
+RWESharp.Modify.HistoryElement.HistoryElement
+=============================================
+
+.. currentmodule:: RWESharp.Modify.HistoryElement
+
+.. autoclass:: HistoryElement
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~HistoryElement.__init__
+      ~HistoryElement.redo_changes
+      ~HistoryElement.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~HistoryElement.basemod
+      ~HistoryElement.level
+      ~HistoryElement.manager
+   
+   

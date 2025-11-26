@@ -1,0 +1,22 @@
+RWESharp.ui.uiscripts
+=====================
+
+.. automodule:: RWESharp.ui.uiscripts
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   PenPicker
+   about
+   hotkeys
+   keydialog
+   mainui
+   settings
+   splash

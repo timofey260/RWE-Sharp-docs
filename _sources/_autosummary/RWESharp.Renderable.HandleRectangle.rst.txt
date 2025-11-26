@@ -1,0 +1,20 @@
+RWESharp.Renderable.HandleRectangle
+===================================
+
+.. automodule:: RWESharp.Renderable.HandleRectangle
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      GridHandleRectangle
+      GridRectangle
+      HandleRectangle
+      NormalRectangle
+      Rectangle
+   

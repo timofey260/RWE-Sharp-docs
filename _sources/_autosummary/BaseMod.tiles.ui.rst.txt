@@ -1,0 +1,19 @@
+BaseMod.tiles.ui
+================
+
+.. automodule:: BaseMod.tiles.ui
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   tilepin
+   tiles_ui
+   tiles_vis_ui
+   tilesettings_ui

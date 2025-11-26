@@ -1,0 +1,17 @@
+BaseMod.tiles.tileEditor
+========================
+
+.. automodule:: BaseMod.tiles.tileEditor
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      TileEditor
+      TileTools
+   

@@ -1,0 +1,52 @@
+RWESharp.Loaders.Prop.Prop
+==========================
+
+.. currentmodule:: RWESharp.Loaders.Prop
+
+.. autoclass:: Prop
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Prop.__init__
+      ~Prop.copy
+      ~Prop.get
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Prop.beveltable
+      ~Prop.colorable
+      ~Prop.long
+      ~Prop.rope
+      ~Prop.item
+      ~Prop.name
+      ~Prop.type
+      ~Prop.repeatl
+      ~Prop.description
+      ~Prop.images
+      ~Prop.colorTreatment
+      ~Prop.vars
+      ~Prop.color
+      ~Prop.cat
+      ~Prop.tags
+      ~Prop.err
+      ~Prop.category
+      ~Prop.notes
+      ~Prop.size
+   
+   

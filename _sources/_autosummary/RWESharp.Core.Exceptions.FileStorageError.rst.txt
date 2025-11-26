@@ -1,0 +1,6 @@
+RWESharp.Core.Exceptions.FileStorageError
+=========================================
+
+.. currentmodule:: RWESharp.Core.Exceptions
+
+.. autoexception:: FileStorageError

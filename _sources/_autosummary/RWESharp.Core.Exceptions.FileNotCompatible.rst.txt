@@ -1,0 +1,6 @@
+RWESharp.Core.Exceptions.FileNotCompatible
+==========================================
+
+.. currentmodule:: RWESharp.Core.Exceptions
+
+.. autoexception:: FileNotCompatible

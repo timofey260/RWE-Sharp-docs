@@ -1,0 +1,28 @@
+BaseMod.props.ui.props\_vis\_ui.Ui\_PropsView
+=============================================
+
+.. currentmodule:: BaseMod.props.ui.props_vis_ui
+
+.. autoclass:: Ui_PropsView
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Ui_PropsView.__init__
+      ~Ui_PropsView.retranslateUi
+      ~Ui_PropsView.setupUi
+   
+   
+
+   
+   
+   

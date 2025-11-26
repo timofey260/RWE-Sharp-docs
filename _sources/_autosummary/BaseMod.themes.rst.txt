@@ -1,0 +1,20 @@
+BaseMod.themes
+==============
+
+.. automodule:: BaseMod.themes
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   RaspberryDark
+   paletteui
+   paletteuiconnector
+   preferencesui
+   preferencesuiconnector

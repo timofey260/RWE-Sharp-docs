@@ -1,0 +1,22 @@
+BaseMod.LevelParts
+==================
+
+.. automodule:: BaseMod.LevelParts
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      CameraLevelPart
+      EffectLevelPart
+      GeoLevelPart
+      InfoLevelPart
+      LightLevelPart
+      PropLevelPart
+      TileLevelPart
+   

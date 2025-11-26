@@ -1,0 +1,28 @@
+BaseMod.effects.effectHistory
+=============================
+
+.. automodule:: BaseMod.effects.effectHistory
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      copy_effect
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      EffectAdd
+      EffectBrush
+      EffectDuplicate
+      EffectMove
+      EffectOptionChange
+      EffectRemove
+      LevelResizedEffects
+   

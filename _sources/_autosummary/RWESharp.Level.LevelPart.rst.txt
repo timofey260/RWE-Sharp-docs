@@ -1,0 +1,16 @@
+RWESharp.Level.LevelPart
+========================
+
+.. automodule:: RWESharp.Level.LevelPart
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      LevelPart
+   

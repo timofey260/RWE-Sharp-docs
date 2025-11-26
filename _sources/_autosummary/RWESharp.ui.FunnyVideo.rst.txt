@@ -1,0 +1,16 @@
+RWESharp.ui.FunnyVideo
+======================
+
+.. automodule:: RWESharp.ui.FunnyVideo
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      FunnyVideo
+   

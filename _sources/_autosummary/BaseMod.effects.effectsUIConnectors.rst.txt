@@ -1,0 +1,18 @@
+BaseMod.effects.effectsUIConnectors
+===================================
+
+.. automodule:: BaseMod.effects.effectsUIConnectors
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      EffectDialog
+      EffectViewUI
+      EffectsUI
+   

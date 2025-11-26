@@ -1,0 +1,16 @@
+RWESharp.ui.KeyDialog
+=====================
+
+.. automodule:: RWESharp.ui.KeyDialog
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      KeyDialog
+   

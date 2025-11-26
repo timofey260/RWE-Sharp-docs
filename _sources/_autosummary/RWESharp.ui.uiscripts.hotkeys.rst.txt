@@ -1,0 +1,16 @@
+RWESharp.ui.uiscripts.hotkeys
+=============================
+
+.. automodule:: RWESharp.ui.uiscripts.hotkeys
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_Hotkeys
+   

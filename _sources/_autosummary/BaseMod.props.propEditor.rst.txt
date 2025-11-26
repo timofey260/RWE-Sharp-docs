@@ -1,0 +1,16 @@
+BaseMod.props.propEditor
+========================
+
+.. automodule:: BaseMod.props.propEditor
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      PropEditor
+   

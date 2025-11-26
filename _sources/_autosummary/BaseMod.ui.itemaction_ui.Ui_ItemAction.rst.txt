@@ -1,0 +1,28 @@
+BaseMod.ui.itemaction\_ui.Ui\_ItemAction
+========================================
+
+.. currentmodule:: BaseMod.ui.itemaction_ui
+
+.. autoclass:: Ui_ItemAction
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Ui_ItemAction.__init__
+      ~Ui_ItemAction.retranslateUi
+      ~Ui_ItemAction.setupUi
+   
+   
+
+   
+   
+   

@@ -1,0 +1,18 @@
+RWESharp.Configurable
+=====================
+
+.. automodule:: RWESharp.Configurable
+   :members:
+   :undoc-members:
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   Configurable
+   PythonTypes
+   QtTypes

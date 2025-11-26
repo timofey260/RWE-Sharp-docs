@@ -1,0 +1,59 @@
+BaseMod.props.propRenderable.PropRenderable
+===========================================
+
+.. currentmodule:: BaseMod.props.propRenderable
+
+.. autoclass:: PropRenderable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PropRenderable.__init__
+      ~PropRenderable.create_rope_graphics_from_model
+      ~PropRenderable.delete_handlers
+      ~PropRenderable.free_rotate
+      ~PropRenderable.free_transform
+      ~PropRenderable.init_graphics
+      ~PropRenderable.level_resized
+      ~PropRenderable.move_event
+      ~PropRenderable.pointchange
+      ~PropRenderable.post_init_graphics
+      ~PropRenderable.remove_graphics
+      ~PropRenderable.remove_myself
+      ~PropRenderable.retransform
+      ~PropRenderable.rotate
+      ~PropRenderable.setOpacity
+      ~PropRenderable.setPos
+      ~PropRenderable.setScale
+      ~PropRenderable.set_outline
+      ~PropRenderable.set_variation
+      ~PropRenderable.set_visible
+      ~PropRenderable.setprop
+      ~PropRenderable.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PropRenderable.actual_offset
+      ~PropRenderable.is_initiated_grapgics
+      ~PropRenderable.level
+      ~PropRenderable.manager
+      ~PropRenderable.pos
+      ~PropRenderable.viewport
+      ~PropRenderable.zoom
+   
+   

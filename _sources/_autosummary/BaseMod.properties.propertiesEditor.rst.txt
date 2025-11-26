@@ -1,0 +1,16 @@
+BaseMod.properties.propertiesEditor
+===================================
+
+.. automodule:: BaseMod.properties.propertiesEditor
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      PropertiesEditor
+   

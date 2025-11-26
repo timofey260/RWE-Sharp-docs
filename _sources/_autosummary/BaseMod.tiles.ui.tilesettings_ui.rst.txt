@@ -1,0 +1,16 @@
+BaseMod.tiles.ui.tilesettings\_ui
+=================================
+
+.. automodule:: BaseMod.tiles.ui.tilesettings_ui
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_TileSettings
+   

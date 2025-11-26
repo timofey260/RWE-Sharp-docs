@@ -1,0 +1,16 @@
+BaseMod.effects.ui.effectsdialog
+================================
+
+.. automodule:: BaseMod.effects.ui.effectsdialog
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Ui_EffectDialog
+   

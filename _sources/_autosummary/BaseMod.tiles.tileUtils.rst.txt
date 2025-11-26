@@ -1,0 +1,34 @@
+BaseMod.tiles.tileUtils
+=======================
+
+.. automodule:: BaseMod.tiles.tileUtils
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      can_place
+      check_collisions
+      copy_tile
+      place_tile
+      point_collision
+      remove_tile
+      tile_changes
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      BaseTileChangelist
+      PlacedMaterial
+      PlacedTile
+      PlacedTileBody
+      PlacedTileHead
+      RemovedTile
+      TileHistory
+   

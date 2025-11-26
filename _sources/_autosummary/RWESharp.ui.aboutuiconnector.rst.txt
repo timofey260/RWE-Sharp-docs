@@ -1,0 +1,16 @@
+RWESharp.ui.aboutuiconnector
+============================
+
+.. automodule:: RWESharp.ui.aboutuiconnector
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      AboutDialog
+   

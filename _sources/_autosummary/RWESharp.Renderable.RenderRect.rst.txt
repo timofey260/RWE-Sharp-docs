@@ -1,0 +1,16 @@
+RWESharp.Renderable.RenderRect
+==============================
+
+.. automodule:: RWESharp.Renderable.RenderRect
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      RenderRect
+   

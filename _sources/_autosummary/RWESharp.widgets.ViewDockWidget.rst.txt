@@ -1,0 +1,16 @@
+RWESharp.widgets.ViewDockWidget
+===============================
+
+.. automodule:: RWESharp.widgets.ViewDockWidget
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      ViewDockWidget
+   

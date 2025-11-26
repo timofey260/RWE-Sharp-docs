@@ -1,0 +1,82 @@
+RWESharp.Configurable.PythonTypes.DictConfigurable
+==================================================
+
+.. currentmodule:: RWESharp.Configurable.PythonTypes
+
+.. autoclass:: DictConfigurable
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DictConfigurable.__init__
+      ~DictConfigurable.blockSignals
+      ~DictConfigurable.childEvent
+      ~DictConfigurable.children
+      ~DictConfigurable.connect
+      ~DictConfigurable.connectNotify
+      ~DictConfigurable.customEvent
+      ~DictConfigurable.deleteLater
+      ~DictConfigurable.disconnect
+      ~DictConfigurable.disconnectNotify
+      ~DictConfigurable.dumpObjectInfo
+      ~DictConfigurable.dumpObjectTree
+      ~DictConfigurable.dynamicPropertyNames
+      ~DictConfigurable.emit
+      ~DictConfigurable.event
+      ~DictConfigurable.eventFilter
+      ~DictConfigurable.findChild
+      ~DictConfigurable.findChildren
+      ~DictConfigurable.inherits
+      ~DictConfigurable.installEventFilter
+      ~DictConfigurable.isQuickItemType
+      ~DictConfigurable.isSignalConnected
+      ~DictConfigurable.isWidgetType
+      ~DictConfigurable.isWindowType
+      ~DictConfigurable.killTimer
+      ~DictConfigurable.link_mod
+      ~DictConfigurable.load_str_value
+      ~DictConfigurable.metaObject
+      ~DictConfigurable.moveToThread
+      ~DictConfigurable.objectName
+      ~DictConfigurable.parent
+      ~DictConfigurable.property
+      ~DictConfigurable.receivers
+      ~DictConfigurable.removeEventFilter
+      ~DictConfigurable.reset_value
+      ~DictConfigurable.save_str_value
+      ~DictConfigurable.sender
+      ~DictConfigurable.senderSignalIndex
+      ~DictConfigurable.setObjectName
+      ~DictConfigurable.setParent
+      ~DictConfigurable.setProperty
+      ~DictConfigurable.signalsBlocked
+      ~DictConfigurable.startTimer
+      ~DictConfigurable.thread
+      ~DictConfigurable.timerEvent
+      ~DictConfigurable.tr
+      ~DictConfigurable.update_value
+      ~DictConfigurable.update_value_default
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~DictConfigurable.destroyed
+      ~DictConfigurable.objectNameChanged
+      ~DictConfigurable.staticMetaObject
+      ~DictConfigurable.valueChanged
+   
+   

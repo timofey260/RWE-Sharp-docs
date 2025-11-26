@@ -1,0 +1,52 @@
+RWESharp.Renderable.RenderImage.RenderImage
+===========================================
+
+.. currentmodule:: RWESharp.Renderable.RenderImage
+
+.. autoclass:: RenderImage
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RenderImage.__init__
+      ~RenderImage.draw_layer
+      ~RenderImage.init_graphics
+      ~RenderImage.level_resized
+      ~RenderImage.move_event
+      ~RenderImage.post_init_graphics
+      ~RenderImage.redraw
+      ~RenderImage.remove_graphics
+      ~RenderImage.remove_myself
+      ~RenderImage.setOpacity
+      ~RenderImage.setPixmap
+      ~RenderImage.setPos
+      ~RenderImage.setScale
+      ~RenderImage.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RenderImage.actual_offset
+      ~RenderImage.is_initiated_grapgics
+      ~RenderImage.level
+      ~RenderImage.manager
+      ~RenderImage.painter_enabled
+      ~RenderImage.pos
+      ~RenderImage.viewport
+      ~RenderImage.zoom
+   
+   

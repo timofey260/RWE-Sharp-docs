@@ -1,0 +1,16 @@
+RWESharp.Loaders.Loader
+=======================
+
+.. automodule:: RWESharp.Loaders.Loader
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      Loader
+   

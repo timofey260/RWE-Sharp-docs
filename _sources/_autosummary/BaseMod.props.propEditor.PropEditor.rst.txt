@@ -1,0 +1,79 @@
+BaseMod.props.propEditor.PropEditor
+===================================
+
+.. currentmodule:: BaseMod.props.propEditor
+
+.. autoclass:: PropEditor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PropEditor.__init__
+      ~PropEditor.add_myself
+      ~PropEditor.add_renderable
+      ~PropEditor.apply_settings
+      ~PropEditor.apply_tags
+      ~PropEditor.create_rope_simulation
+      ~PropEditor.deformlongprop
+      ~PropEditor.find_nearest
+      ~PropEditor.flipx
+      ~PropEditor.flipy
+      ~PropEditor.free_rotate
+      ~PropEditor.free_transform
+      ~PropEditor.init_scene_items
+      ~PropEditor.level_resized
+      ~PropEditor.mouse_left_press
+      ~PropEditor.mouse_left_release
+      ~PropEditor.mouse_middle_press
+      ~PropEditor.mouse_middle_release
+      ~PropEditor.mouse_move_event
+      ~PropEditor.mouse_press_event
+      ~PropEditor.mouse_release_event
+      ~PropEditor.mouse_right_press
+      ~PropEditor.mouse_right_release
+      ~PropEditor.mouse_wheel_event
+      ~PropEditor.move_event
+      ~PropEditor.place
+      ~PropEditor.remove_items_from_scene
+      ~PropEditor.reset_selection
+      ~PropEditor.reset_transform
+      ~PropEditor.rotate
+      ~PropEditor.setprop
+      ~PropEditor.update_rope
+      ~PropEditor.variationadd
+      ~PropEditor.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PropEditor.alt
+      ~PropEditor.basemod
+      ~PropEditor.control
+      ~PropEditor.editor_pos
+      ~PropEditor.layer
+      ~PropEditor.level
+      ~PropEditor.meta
+      ~PropEditor.modifiers
+      ~PropEditor.mouse_left
+      ~PropEditor.mouse_pos
+      ~PropEditor.mouse_right
+      ~PropEditor.shift
+      ~PropEditor.transform
+      ~PropEditor.workscene
+      ~PropEditor.zoom
+   
+   

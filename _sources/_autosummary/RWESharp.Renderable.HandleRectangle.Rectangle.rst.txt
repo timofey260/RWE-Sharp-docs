@@ -1,0 +1,247 @@
+RWESharp.Renderable.HandleRectangle.Rectangle
+=============================================
+
+.. currentmodule:: RWESharp.Renderable.HandleRectangle
+
+.. autoclass:: Rectangle
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Rectangle.__init__
+      ~Rectangle.acceptDrops
+      ~Rectangle.acceptHoverEvents
+      ~Rectangle.acceptTouchEvents
+      ~Rectangle.acceptedMouseButtons
+      ~Rectangle.addToIndex
+      ~Rectangle.advance
+      ~Rectangle.blockSignals
+      ~Rectangle.boundingRect
+      ~Rectangle.boundingRegion
+      ~Rectangle.boundingRegionGranularity
+      ~Rectangle.brush
+      ~Rectangle.cacheMode
+      ~Rectangle.childEvent
+      ~Rectangle.childItems
+      ~Rectangle.children
+      ~Rectangle.childrenBoundingRect
+      ~Rectangle.clearFocus
+      ~Rectangle.clipPath
+      ~Rectangle.collidesWithItem
+      ~Rectangle.collidesWithPath
+      ~Rectangle.collidingItems
+      ~Rectangle.commonAncestorItem
+      ~Rectangle.connect
+      ~Rectangle.connectNotify
+      ~Rectangle.contains
+      ~Rectangle.contextMenuEvent
+      ~Rectangle.cursor
+      ~Rectangle.customEvent
+      ~Rectangle.data
+      ~Rectangle.deleteLater
+      ~Rectangle.deviceTransform
+      ~Rectangle.disconnect
+      ~Rectangle.disconnectNotify
+      ~Rectangle.dragEnterEvent
+      ~Rectangle.dragLeaveEvent
+      ~Rectangle.dragMoveEvent
+      ~Rectangle.dropEvent
+      ~Rectangle.dumpObjectInfo
+      ~Rectangle.dumpObjectTree
+      ~Rectangle.dynamicPropertyNames
+      ~Rectangle.effectiveOpacity
+      ~Rectangle.emit
+      ~Rectangle.ensureVisible
+      ~Rectangle.event
+      ~Rectangle.eventFilter
+      ~Rectangle.extension
+      ~Rectangle.filtersChildEvents
+      ~Rectangle.findChild
+      ~Rectangle.findChildren
+      ~Rectangle.flags
+      ~Rectangle.focusInEvent
+      ~Rectangle.focusItem
+      ~Rectangle.focusOutEvent
+      ~Rectangle.focusProxy
+      ~Rectangle.focusScopeItem
+      ~Rectangle.grabKeyboard
+      ~Rectangle.grabMouse
+      ~Rectangle.graphicsEffect
+      ~Rectangle.group
+      ~Rectangle.handlesChildEvents
+      ~Rectangle.hasCursor
+      ~Rectangle.hasFocus
+      ~Rectangle.hide
+      ~Rectangle.hoverEnterEvent
+      ~Rectangle.hoverLeaveEvent
+      ~Rectangle.hoverMoveEvent
+      ~Rectangle.inherits
+      ~Rectangle.inputMethodEvent
+      ~Rectangle.inputMethodHints
+      ~Rectangle.inputMethodQuery
+      ~Rectangle.installEventFilter
+      ~Rectangle.installSceneEventFilter
+      ~Rectangle.isActive
+      ~Rectangle.isAncestorOf
+      ~Rectangle.isBlockedByModalPanel
+      ~Rectangle.isClipped
+      ~Rectangle.isEnabled
+      ~Rectangle.isObscured
+      ~Rectangle.isObscuredBy
+      ~Rectangle.isPanel
+      ~Rectangle.isQuickItemType
+      ~Rectangle.isSelected
+      ~Rectangle.isSignalConnected
+      ~Rectangle.isUnderMouse
+      ~Rectangle.isVisible
+      ~Rectangle.isVisibleTo
+      ~Rectangle.isWidget
+      ~Rectangle.isWidgetType
+      ~Rectangle.isWindow
+      ~Rectangle.isWindowType
+      ~Rectangle.itemChange
+      ~Rectangle.itemTransform
+      ~Rectangle.keyPressEvent
+      ~Rectangle.keyReleaseEvent
+      ~Rectangle.killTimer
+      ~Rectangle.mapFromItem
+      ~Rectangle.mapFromParent
+      ~Rectangle.mapFromScene
+      ~Rectangle.mapRectFromItem
+      ~Rectangle.mapRectFromParent
+      ~Rectangle.mapRectFromScene
+      ~Rectangle.mapRectToItem
+      ~Rectangle.mapRectToParent
+      ~Rectangle.mapRectToScene
+      ~Rectangle.mapToItem
+      ~Rectangle.mapToParent
+      ~Rectangle.mapToScene
+      ~Rectangle.metaObject
+      ~Rectangle.mouseDoubleClickEvent
+      ~Rectangle.mouseMoveEvent
+      ~Rectangle.mousePressEvent
+      ~Rectangle.mouseReleaseEvent
+      ~Rectangle.moveBy
+      ~Rectangle.moveToThread
+      ~Rectangle.objectName
+      ~Rectangle.opacity
+      ~Rectangle.opaqueArea
+      ~Rectangle.paint
+      ~Rectangle.panel
+      ~Rectangle.panelModality
+      ~Rectangle.parent
+      ~Rectangle.parentItem
+      ~Rectangle.parentObject
+      ~Rectangle.parentWidget
+      ~Rectangle.pen
+      ~Rectangle.pos
+      ~Rectangle.prepareGeometryChange
+      ~Rectangle.property
+      ~Rectangle.receivers
+      ~Rectangle.rect
+      ~Rectangle.removeEventFilter
+      ~Rectangle.removeFromIndex
+      ~Rectangle.removeSceneEventFilter
+      ~Rectangle.resetTransform
+      ~Rectangle.rotation
+      ~Rectangle.scale
+      ~Rectangle.scene
+      ~Rectangle.sceneBoundingRect
+      ~Rectangle.sceneEvent
+      ~Rectangle.sceneEventFilter
+      ~Rectangle.scenePos
+      ~Rectangle.sceneTransform
+      ~Rectangle.scroll
+      ~Rectangle.sender
+      ~Rectangle.senderSignalIndex
+      ~Rectangle.setAcceptDrops
+      ~Rectangle.setAcceptHoverEvents
+      ~Rectangle.setAcceptTouchEvents
+      ~Rectangle.setAcceptedMouseButtons
+      ~Rectangle.setActive
+      ~Rectangle.setBoundingRegionGranularity
+      ~Rectangle.setBrush
+      ~Rectangle.setCacheMode
+      ~Rectangle.setCursor
+      ~Rectangle.setData
+      ~Rectangle.setEnabled
+      ~Rectangle.setFiltersChildEvents
+      ~Rectangle.setFlag
+      ~Rectangle.setFlags
+      ~Rectangle.setFocus
+      ~Rectangle.setFocusProxy
+      ~Rectangle.setGraphicsEffect
+      ~Rectangle.setGroup
+      ~Rectangle.setHandlesChildEvents
+      ~Rectangle.setInputMethodHints
+      ~Rectangle.setObjectName
+      ~Rectangle.setOpacity
+      ~Rectangle.setPanelModality
+      ~Rectangle.setParent
+      ~Rectangle.setParentItem
+      ~Rectangle.setPen
+      ~Rectangle.setPos
+      ~Rectangle.setProperty
+      ~Rectangle.setRect
+      ~Rectangle.setRotation
+      ~Rectangle.setScale
+      ~Rectangle.setSelected
+      ~Rectangle.setToolTip
+      ~Rectangle.setTransform
+      ~Rectangle.setTransformOriginPoint
+      ~Rectangle.setTransformations
+      ~Rectangle.setVisible
+      ~Rectangle.setX
+      ~Rectangle.setY
+      ~Rectangle.setZValue
+      ~Rectangle.shape
+      ~Rectangle.show
+      ~Rectangle.signalsBlocked
+      ~Rectangle.stackBefore
+      ~Rectangle.startTimer
+      ~Rectangle.thread
+      ~Rectangle.timerEvent
+      ~Rectangle.toGraphicsObject
+      ~Rectangle.toolTip
+      ~Rectangle.topLevelItem
+      ~Rectangle.topLevelWidget
+      ~Rectangle.tr
+      ~Rectangle.transform
+      ~Rectangle.transformOriginPoint
+      ~Rectangle.transformations
+      ~Rectangle.type
+      ~Rectangle.ungrabKeyboard
+      ~Rectangle.ungrabMouse
+      ~Rectangle.unsetCursor
+      ~Rectangle.update
+      ~Rectangle.updateMicroFocus
+      ~Rectangle.wheelEvent
+      ~Rectangle.window
+      ~Rectangle.x
+      ~Rectangle.y
+      ~Rectangle.zValue
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Rectangle.UserType
+      ~Rectangle.destroyed
+      ~Rectangle.objectNameChanged
+      ~Rectangle.rectMoved
+      ~Rectangle.staticMetaObject
+   
+   

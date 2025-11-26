@@ -1,0 +1,36 @@
+BaseMod.props.propHistory.PropPlace
+===================================
+
+.. currentmodule:: BaseMod.props.propHistory
+
+.. autoclass:: PropPlace
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~PropPlace.__init__
+      ~PropPlace.redo_changes
+      ~PropPlace.undo_changes
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PropPlace.basemod
+      ~PropPlace.level
+      ~PropPlace.manager
+   
+   

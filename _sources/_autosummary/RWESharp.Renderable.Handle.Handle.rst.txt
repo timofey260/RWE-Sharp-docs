@@ -1,0 +1,53 @@
+RWESharp.Renderable.Handle.Handle
+=================================
+
+.. currentmodule:: RWESharp.Renderable.Handle
+
+.. autoclass:: Handle
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Handle.__init__
+      ~Handle.init_graphics
+      ~Handle.level_resized
+      ~Handle.move_event
+      ~Handle.post_init_graphics
+      ~Handle.remove_graphics
+      ~Handle.remove_myself
+      ~Handle.setOpacity
+      ~Handle.setPos
+      ~Handle.setScale
+      ~Handle.zoom_event
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Handle.actual_offset
+      ~Handle.is_initiated_grapgics
+      ~Handle.level
+      ~Handle.manager
+      ~Handle.mousePressed
+      ~Handle.mouseReleased
+      ~Handle.pos
+      ~Handle.posChanged
+      ~Handle.posChangedRelative
+      ~Handle.previous_pos
+      ~Handle.viewport
+      ~Handle.zoom
+   
+   

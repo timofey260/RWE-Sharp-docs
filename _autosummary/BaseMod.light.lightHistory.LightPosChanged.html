@@ -1,0 +1,1171 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="BaseMod.light.lightModule" href="BaseMod.light.lightModule.html"><link rel="prev" title="BaseMod.light.lightHistory.LightImageChanged" href="BaseMod.light.lightHistory.LightImageChanged.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>BaseMod.light.lightHistory.LightPosChanged - RWE-Sharp documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-brand-primary: #c93669;
+  --color-brand-content: #b5164d;
+  --color-admonition-background: orange;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #e6276a;
+  --color-brand-content: #f56295;
+  --color-admonition-background: orange;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-brand-primary: #e6276a;
+  --color-brand-content: #f56295;
+  --color-admonition-background: orange;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">RWE-Sharp  documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <span class="sidebar-brand-text">RWE-Sharp  documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="BaseMod.html">BaseMod</a><input aria-label="Toggle navigation of BaseMod" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="BaseMod.BaseModWidgets.html">BaseMod.BaseModWidgets</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.Configs.html">BaseMod.Configs</a><input aria-label="Toggle navigation of BaseMod.Configs" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.Configs.BaseModConfig.html">BaseMod.Configs.BaseModConfig</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.Explorer.html">BaseMod.Explorer</a><input aria-label="Toggle navigation of BaseMod.Explorer" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.Explorer.Explorer.html">BaseMod.Explorer.Explorer</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.LevelParts.html">BaseMod.LevelParts</a><input aria-label="Toggle navigation of BaseMod.LevelParts" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.LevelParts.CameraLevelPart.html">BaseMod.LevelParts.CameraLevelPart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.LevelParts.EffectLevelPart.html">BaseMod.LevelParts.EffectLevelPart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.LevelParts.GeoLevelPart.html">BaseMod.LevelParts.GeoLevelPart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.LevelParts.InfoLevelPart.html">BaseMod.LevelParts.InfoLevelPart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.LevelParts.LightLevelPart.html">BaseMod.LevelParts.LightLevelPart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.LevelParts.PropLevelPart.html">BaseMod.LevelParts.PropLevelPart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.LevelParts.TileLevelPart.html">BaseMod.LevelParts.TileLevelPart</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.baseMod.html">BaseMod.baseMod</a><input aria-label="Toggle navigation of BaseMod.baseMod" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.baseMod.BaseMod.html">BaseMod.baseMod.BaseMod</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.camera.html">BaseMod.camera</a><input aria-label="Toggle navigation of BaseMod.camera" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.camera.cameraEditor.html">BaseMod.camera.cameraEditor</a><input aria-label="Toggle navigation of BaseMod.camera.cameraEditor" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraEditor.CameraEditor.html">BaseMod.camera.cameraEditor.CameraEditor</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.camera.cameraHistory.html">BaseMod.camera.cameraHistory</a><input aria-label="Toggle navigation of BaseMod.camera.cameraHistory" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraHistory.AddCamera.html">BaseMod.camera.cameraHistory.AddCamera</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraHistory.CameraMove.html">BaseMod.camera.cameraHistory.CameraMove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraHistory.CameraQuadMove.html">BaseMod.camera.cameraHistory.CameraQuadMove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraHistory.LevelResizedCameras.html">BaseMod.camera.cameraHistory.LevelResizedCameras</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraHistory.MoveCameraOrder.html">BaseMod.camera.cameraHistory.MoveCameraOrder</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraHistory.RemoveCamera.html">BaseMod.camera.cameraHistory.RemoveCamera</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.camera.cameraModule.html">BaseMod.camera.cameraModule</a><input aria-label="Toggle navigation of BaseMod.camera.cameraModule" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraModule.CameraModule.html">BaseMod.camera.cameraModule.CameraModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.camera.cameraRenderable.html">BaseMod.camera.cameraRenderable</a><input aria-label="Toggle navigation of BaseMod.camera.cameraRenderable" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraRenderable.RenderCamera.html">BaseMod.camera.cameraRenderable.RenderCamera</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.camera.cameraUIConnectors.html">BaseMod.camera.cameraUIConnectors</a><input aria-label="Toggle navigation of BaseMod.camera.cameraUIConnectors" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraUIConnectors.CameraSettingsUI.html">BaseMod.camera.cameraUIConnectors.CameraSettingsUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraUIConnectors.CameraUI.html">BaseMod.camera.cameraUIConnectors.CameraUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.camera.cameraUIConnectors.CameraViewUI.html">BaseMod.camera.cameraUIConnectors.CameraViewUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.camera.ui.html">BaseMod.camera.ui</a><input aria-label="Toggle navigation of BaseMod.camera.ui" class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.camera.ui.camera_vis_ui.html">BaseMod.camera.ui.camera_vis_ui</a><input aria-label="Toggle navigation of BaseMod.camera.ui.camera_vis_ui" class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" role="switch" type="checkbox"/><label for="toctree-checkbox-13"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.camera.ui.camera_vis_ui.Ui_CameraView.html">BaseMod.camera.ui.camera_vis_ui.Ui_CameraView</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.camera.ui.cameras_ui.html">BaseMod.camera.ui.cameras_ui</a><input aria-label="Toggle navigation of BaseMod.camera.ui.cameras_ui" class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" role="switch" type="checkbox"/><label for="toctree-checkbox-14"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.camera.ui.cameras_ui.Ui_Cameras.html">BaseMod.camera.ui.cameras_ui.Ui_Cameras</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.camera.ui.camerasettings_ui.html">BaseMod.camera.ui.camerasettings_ui</a><input aria-label="Toggle navigation of BaseMod.camera.ui.camerasettings_ui" class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" role="switch" type="checkbox"/><label for="toctree-checkbox-15"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.camera.ui.camerasettings_ui.Ui_Cameras.html">BaseMod.camera.ui.camerasettings_ui.Ui_Cameras</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.effects.html">BaseMod.effects</a><input aria-label="Toggle navigation of BaseMod.effects" class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" role="switch" type="checkbox"/><label for="toctree-checkbox-16"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.effects.effectEditor.html">BaseMod.effects.effectEditor</a><input aria-label="Toggle navigation of BaseMod.effects.effectEditor" class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/><label for="toctree-checkbox-17"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectEditor.EffectEditor.html">BaseMod.effects.effectEditor.EffectEditor</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.effects.effectExplorer.html">BaseMod.effects.effectExplorer</a><input aria-label="Toggle navigation of BaseMod.effects.effectExplorer" class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/><label for="toctree-checkbox-18"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectExplorer.EffectExplorer.html">BaseMod.effects.effectExplorer.EffectExplorer</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.effects.effectHistory.html">BaseMod.effects.effectHistory</a><input aria-label="Toggle navigation of BaseMod.effects.effectHistory" class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/><label for="toctree-checkbox-19"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectHistory.EffectAdd.html">BaseMod.effects.effectHistory.EffectAdd</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectHistory.EffectBrush.html">BaseMod.effects.effectHistory.EffectBrush</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectHistory.EffectDuplicate.html">BaseMod.effects.effectHistory.EffectDuplicate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectHistory.EffectMove.html">BaseMod.effects.effectHistory.EffectMove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectHistory.EffectOptionChange.html">BaseMod.effects.effectHistory.EffectOptionChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectHistory.EffectRemove.html">BaseMod.effects.effectHistory.EffectRemove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectHistory.LevelResizedEffects.html">BaseMod.effects.effectHistory.LevelResizedEffects</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.effects.effectModule.html">BaseMod.effects.effectModule</a><input aria-label="Toggle navigation of BaseMod.effects.effectModule" class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/><label for="toctree-checkbox-20"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectModule.EffectsModule.html">BaseMod.effects.effectModule.EffectsModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.effects.effectRenderTexture.html">BaseMod.effects.effectRenderTexture</a><input aria-label="Toggle navigation of BaseMod.effects.effectRenderTexture" class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/><label for="toctree-checkbox-21"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectRenderTexture.EffectRenderLevelImage.html">BaseMod.effects.effectRenderTexture.EffectRenderLevelImage</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.effects.effectsUIConnectors.html">BaseMod.effects.effectsUIConnectors</a><input aria-label="Toggle navigation of BaseMod.effects.effectsUIConnectors" class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/><label for="toctree-checkbox-22"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectsUIConnectors.EffectDialog.html">BaseMod.effects.effectsUIConnectors.EffectDialog</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectsUIConnectors.EffectViewUI.html">BaseMod.effects.effectsUIConnectors.EffectViewUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.effects.effectsUIConnectors.EffectsUI.html">BaseMod.effects.effectsUIConnectors.EffectsUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.effects.ui.html">BaseMod.effects.ui</a><input aria-label="Toggle navigation of BaseMod.effects.ui" class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/><label for="toctree-checkbox-23"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.effects.ui.effectexplorer_ui.html">BaseMod.effects.ui.effectexplorer_ui</a><input aria-label="Toggle navigation of BaseMod.effects.ui.effectexplorer_ui" class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/><label for="toctree-checkbox-24"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.effects.ui.effectexplorer_ui.Ui_EffectExplorer.html">BaseMod.effects.ui.effectexplorer_ui.Ui_EffectExplorer</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.effects.ui.effects_ui.html">BaseMod.effects.ui.effects_ui</a><input aria-label="Toggle navigation of BaseMod.effects.ui.effects_ui" class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/><label for="toctree-checkbox-25"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.effects.ui.effects_ui.Ui_Effects.html">BaseMod.effects.ui.effects_ui.Ui_Effects</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.effects.ui.effectsdialog.html">BaseMod.effects.ui.effectsdialog</a><input aria-label="Toggle navigation of BaseMod.effects.ui.effectsdialog" class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/><label for="toctree-checkbox-26"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.effects.ui.effectsdialog.Ui_EffectDialog.html">BaseMod.effects.ui.effectsdialog.Ui_EffectDialog</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.effects.ui.effectsview_ui.html">BaseMod.effects.ui.effectsview_ui</a><input aria-label="Toggle navigation of BaseMod.effects.ui.effectsview_ui" class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/><label for="toctree-checkbox-27"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.effects.ui.effectsview_ui.Ui_EffectsView.html">BaseMod.effects.ui.effectsview_ui.Ui_EffectsView</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.geo.html">BaseMod.geo</a><input aria-label="Toggle navigation of BaseMod.geo" class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/><label for="toctree-checkbox-28"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.geo.GeoConsts.html">BaseMod.geo.GeoConsts</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.geo.geoControls.html">BaseMod.geo.geoControls</a><input aria-label="Toggle navigation of BaseMod.geo.geoControls" class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/><label for="toctree-checkbox-29"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoControls.GeoControls.html">BaseMod.geo.geoControls.GeoControls</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.geo.geoHistory.html">BaseMod.geo.geoHistory</a><input aria-label="Toggle navigation of BaseMod.geo.geoHistory" class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/><label for="toctree-checkbox-30"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoHistory.GEBrushChange.html">BaseMod.geo.geoHistory.GEBrushChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoHistory.GEChange.html">BaseMod.geo.geoHistory.GEChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoHistory.GEEllipseChange.html">BaseMod.geo.geoHistory.GEEllipseChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoHistory.GEFillChange.html">BaseMod.geo.geoHistory.GEFillChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoHistory.GEPointChange.html">BaseMod.geo.geoHistory.GEPointChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoHistory.GERectChange.html">BaseMod.geo.geoHistory.GERectChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoHistory.LevelResizedGeo.html">BaseMod.geo.geoHistory.LevelResizedGeo</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.geo.geoRenderTexture.html">BaseMod.geo.geoRenderTexture</a><input aria-label="Toggle navigation of BaseMod.geo.geoRenderTexture" class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/><label for="toctree-checkbox-31"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoRenderTexture.GeoRenderLevelImage.html">BaseMod.geo.geoRenderTexture.GeoRenderLevelImage</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.geo.geoUIConnectors.html">BaseMod.geo.geoUIConnectors</a><input aria-label="Toggle navigation of BaseMod.geo.geoUIConnectors" class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/><label for="toctree-checkbox-32"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoUIConnectors.GeoSettings.html">BaseMod.geo.geoUIConnectors.GeoSettings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoUIConnectors.GeoUI.html">BaseMod.geo.geoUIConnectors.GeoUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geoUIConnectors.GeoViewUI.html">BaseMod.geo.geoUIConnectors.GeoViewUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.geo.geoUtils.html">BaseMod.geo.geoUtils</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.geo.geometryEditor.html">BaseMod.geo.geometryEditor</a><input aria-label="Toggle navigation of BaseMod.geo.geometryEditor" class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/><label for="toctree-checkbox-33"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geometryEditor.GeoBlocks.html">BaseMod.geo.geometryEditor.GeoBlocks</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geometryEditor.GeoTools.html">BaseMod.geo.geometryEditor.GeoTools</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geometryEditor.GeometryEditor.html">BaseMod.geo.geometryEditor.GeometryEditor</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.geo.geometryModule.html">BaseMod.geo.geometryModule</a><input aria-label="Toggle navigation of BaseMod.geo.geometryModule" class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/><label for="toctree-checkbox-34"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.geo.geometryModule.GeoModule.html">BaseMod.geo.geometryModule.GeoModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.geo.ui.html">BaseMod.geo.ui</a><input aria-label="Toggle navigation of BaseMod.geo.ui" class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/><label for="toctree-checkbox-35"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.geo.ui.geometry_ui.html">BaseMod.geo.ui.geometry_ui</a><input aria-label="Toggle navigation of BaseMod.geo.ui.geometry_ui" class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/><label for="toctree-checkbox-36"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.geo.ui.geometry_ui.Ui_Geo.html">BaseMod.geo.ui.geometry_ui.Ui_Geo</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.geo.ui.geometry_vis_ui.html">BaseMod.geo.ui.geometry_vis_ui</a><input aria-label="Toggle navigation of BaseMod.geo.ui.geometry_vis_ui" class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/><label for="toctree-checkbox-37"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.geo.ui.geometry_vis_ui.Ui_GeoView.html">BaseMod.geo.ui.geometry_vis_ui.Ui_GeoView</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.geo.ui.geosettings_ui.html">BaseMod.geo.ui.geosettings_ui</a><input aria-label="Toggle navigation of BaseMod.geo.ui.geosettings_ui" class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/><label for="toctree-checkbox-38"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.geo.ui.geosettings_ui.Ui_Geometry.html">BaseMod.geo.ui.geosettings_ui.Ui_Geometry</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.grid.html">BaseMod.grid</a><input aria-label="Toggle navigation of BaseMod.grid" class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/><label for="toctree-checkbox-39"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.grid.gridModule.html">BaseMod.grid.gridModule</a><input aria-label="Toggle navigation of BaseMod.grid.gridModule" class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/><label for="toctree-checkbox-40"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.grid.gridModule.GridModule.html">BaseMod.grid.gridModule.GridModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.grid.gridRenderTexture.html">BaseMod.grid.gridRenderTexture</a><input aria-label="Toggle navigation of BaseMod.grid.gridRenderTexture" class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/><label for="toctree-checkbox-41"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.grid.gridRenderTexture.GridRenderLevelImage.html">BaseMod.grid.gridRenderTexture.GridRenderLevelImage</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.grid.gridUIConnector.html">BaseMod.grid.gridUIConnector</a><input aria-label="Toggle navigation of BaseMod.grid.gridUIConnector" class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/><label for="toctree-checkbox-42"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.grid.gridUIConnector.GridView.html">BaseMod.grid.gridUIConnector.GridView</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.grid.grid_ui.html">BaseMod.grid.grid_ui</a><input aria-label="Toggle navigation of BaseMod.grid.grid_ui" class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/><label for="toctree-checkbox-43"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.grid.grid_ui.Ui_MiscView.html">BaseMod.grid.grid_ui.Ui_MiscView</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="BaseMod.light.html">BaseMod.light</a><input aria-label="Toggle navigation of BaseMod.light" checked="" class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" role="switch" type="checkbox"/><label for="toctree-checkbox-44"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.light.lightEditor.html">BaseMod.light.lightEditor</a><input aria-label="Toggle navigation of BaseMod.light.lightEditor" class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" role="switch" type="checkbox"/><label for="toctree-checkbox-45"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.light.lightEditor.LightEditor.html">BaseMod.light.lightEditor.LightEditor</a></li>
+</ul>
+</li>
+<li class="toctree-l3 current has-children"><a class="reference internal" href="BaseMod.light.lightHistory.html">BaseMod.light.lightHistory</a><input aria-label="Toggle navigation of BaseMod.light.lightHistory" checked="" class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" role="switch" type="checkbox"/><label for="toctree-checkbox-46"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.light.lightHistory.LevelResizedLight.html">BaseMod.light.lightHistory.LevelResizedLight</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.light.lightHistory.LightImageChanged.html">BaseMod.light.lightHistory.LightImageChanged</a></li>
+<li class="toctree-l4 current current-page"><a class="current reference internal" href="#">BaseMod.light.lightHistory.LightPosChanged</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.light.lightModule.html">BaseMod.light.lightModule</a><input aria-label="Toggle navigation of BaseMod.light.lightModule" class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" role="switch" type="checkbox"/><label for="toctree-checkbox-47"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.light.lightModule.LightModule.html">BaseMod.light.lightModule.LightModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.light.lightUIConnectors.html">BaseMod.light.lightUIConnectors</a><input aria-label="Toggle navigation of BaseMod.light.lightUIConnectors" class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" role="switch" type="checkbox"/><label for="toctree-checkbox-48"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.light.lightUIConnectors.LightUI.html">BaseMod.light.lightUIConnectors.LightUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.light.lightUIConnectors.LightViewUI.html">BaseMod.light.lightUIConnectors.LightViewUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.light.ui.html">BaseMod.light.ui</a><input aria-label="Toggle navigation of BaseMod.light.ui" class="toctree-checkbox" id="toctree-checkbox-49" name="toctree-checkbox-49" role="switch" type="checkbox"/><label for="toctree-checkbox-49"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.light.ui.light_ui.html">BaseMod.light.ui.light_ui</a><input aria-label="Toggle navigation of BaseMod.light.ui.light_ui" class="toctree-checkbox" id="toctree-checkbox-50" name="toctree-checkbox-50" role="switch" type="checkbox"/><label for="toctree-checkbox-50"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.light.ui.light_ui.Ui_Light.html">BaseMod.light.ui.light_ui.Ui_Light</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.light.ui.light_vis_ui.html">BaseMod.light.ui.light_vis_ui</a><input aria-label="Toggle navigation of BaseMod.light.ui.light_vis_ui" class="toctree-checkbox" id="toctree-checkbox-51" name="toctree-checkbox-51" role="switch" type="checkbox"/><label for="toctree-checkbox-51"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.light.ui.light_vis_ui.Ui_LightView.html">BaseMod.light.ui.light_vis_ui.Ui_LightView</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.properties.html">BaseMod.properties</a><input aria-label="Toggle navigation of BaseMod.properties" class="toctree-checkbox" id="toctree-checkbox-52" name="toctree-checkbox-52" role="switch" type="checkbox"/><label for="toctree-checkbox-52"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.properties.PropertiesHistory.html">BaseMod.properties.PropertiesHistory</a><input aria-label="Toggle navigation of BaseMod.properties.PropertiesHistory" class="toctree-checkbox" id="toctree-checkbox-53" name="toctree-checkbox-53" role="switch" type="checkbox"/><label for="toctree-checkbox-53"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.properties.PropertiesHistory.BorderChange.html">BaseMod.properties.PropertiesHistory.BorderChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.properties.PropertiesHistory.LevelResizedProperties.html">BaseMod.properties.PropertiesHistory.LevelResizedProperties</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.properties.PropertiesHistory.TileSeedChange.html">BaseMod.properties.PropertiesHistory.TileSeedChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.properties.PropertiesHistory.WaterChange.html">BaseMod.properties.PropertiesHistory.WaterChange</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.properties.propertiesEditor.html">BaseMod.properties.propertiesEditor</a><input aria-label="Toggle navigation of BaseMod.properties.propertiesEditor" class="toctree-checkbox" id="toctree-checkbox-54" name="toctree-checkbox-54" role="switch" type="checkbox"/><label for="toctree-checkbox-54"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.properties.propertiesEditor.PropertiesEditor.html">BaseMod.properties.propertiesEditor.PropertiesEditor</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.properties.propertiesUIConnectors.html">BaseMod.properties.propertiesUIConnectors</a><input aria-label="Toggle navigation of BaseMod.properties.propertiesUIConnectors" class="toctree-checkbox" id="toctree-checkbox-55" name="toctree-checkbox-55" role="switch" type="checkbox"/><label for="toctree-checkbox-55"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.properties.propertiesUIConnectors.PropertiesUI.html">BaseMod.properties.propertiesUIConnectors.PropertiesUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.properties.ui.html">BaseMod.properties.ui</a><input aria-label="Toggle navigation of BaseMod.properties.ui" class="toctree-checkbox" id="toctree-checkbox-56" name="toctree-checkbox-56" role="switch" type="checkbox"/><label for="toctree-checkbox-56"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.properties.ui.properties_ui.html">BaseMod.properties.ui.properties_ui</a><input aria-label="Toggle navigation of BaseMod.properties.ui.properties_ui" class="toctree-checkbox" id="toctree-checkbox-57" name="toctree-checkbox-57" role="switch" type="checkbox"/><label for="toctree-checkbox-57"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.properties.ui.properties_ui.Ui_Properties.html">BaseMod.properties.ui.properties_ui.Ui_Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.props.html">BaseMod.props</a><input aria-label="Toggle navigation of BaseMod.props" class="toctree-checkbox" id="toctree-checkbox-58" name="toctree-checkbox-58" role="switch" type="checkbox"/><label for="toctree-checkbox-58"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.RopePhysics.html">BaseMod.props.RopePhysics</a><input aria-label="Toggle navigation of BaseMod.props.RopePhysics" class="toctree-checkbox" id="toctree-checkbox-59" name="toctree-checkbox-59" role="switch" type="checkbox"/><label for="toctree-checkbox-59"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.RopePhysics.RopeModel.html">BaseMod.props.RopePhysics.RopeModel</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.propEditor.html">BaseMod.props.propEditor</a><input aria-label="Toggle navigation of BaseMod.props.propEditor" class="toctree-checkbox" id="toctree-checkbox-60" name="toctree-checkbox-60" role="switch" type="checkbox"/><label for="toctree-checkbox-60"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propEditor.PropEditor.html">BaseMod.props.propEditor.PropEditor</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.propExplorer.html">BaseMod.props.propExplorer</a><input aria-label="Toggle navigation of BaseMod.props.propExplorer" class="toctree-checkbox" id="toctree-checkbox-61" name="toctree-checkbox-61" role="switch" type="checkbox"/><label for="toctree-checkbox-61"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propExplorer.PropExplorer.html">BaseMod.props.propExplorer.PropExplorer</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.propHistory.html">BaseMod.props.propHistory</a><input aria-label="Toggle navigation of BaseMod.props.propHistory" class="toctree-checkbox" id="toctree-checkbox-62" name="toctree-checkbox-62" role="switch" type="checkbox"/><label for="toctree-checkbox-62"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propHistory.LevelResizedProps.html">BaseMod.props.propHistory.LevelResizedProps</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propHistory.PropPlace.html">BaseMod.props.propHistory.PropPlace</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propHistory.PropRemove.html">BaseMod.props.propHistory.PropRemove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propHistory.PropsMove.html">BaseMod.props.propHistory.PropsMove</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.propModule.html">BaseMod.props.propModule</a><input aria-label="Toggle navigation of BaseMod.props.propModule" class="toctree-checkbox" id="toctree-checkbox-63" name="toctree-checkbox-63" role="switch" type="checkbox"/><label for="toctree-checkbox-63"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propModule.PropModule.html">BaseMod.props.propModule.PropModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.propRenderable.html">BaseMod.props.propRenderable</a><input aria-label="Toggle navigation of BaseMod.props.propRenderable" class="toctree-checkbox" id="toctree-checkbox-64" name="toctree-checkbox-64" role="switch" type="checkbox"/><label for="toctree-checkbox-64"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propRenderable.PropRenderable.html">BaseMod.props.propRenderable.PropRenderable</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.propUIConnectors.html">BaseMod.props.propUIConnectors</a><input aria-label="Toggle navigation of BaseMod.props.propUIConnectors" class="toctree-checkbox" id="toctree-checkbox-65" name="toctree-checkbox-65" role="switch" type="checkbox"/><label for="toctree-checkbox-65"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propUIConnectors.PropsUI.html">BaseMod.props.propUIConnectors.PropsUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.props.propUIConnectors.PropsViewUI.html">BaseMod.props.propUIConnectors.PropsViewUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="BaseMod.props.propUtils.html">BaseMod.props.propUtils</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.props.ui.html">BaseMod.props.ui</a><input aria-label="Toggle navigation of BaseMod.props.ui" class="toctree-checkbox" id="toctree-checkbox-66" name="toctree-checkbox-66" role="switch" type="checkbox"/><label for="toctree-checkbox-66"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.props.ui.props_ui.html">BaseMod.props.ui.props_ui</a><input aria-label="Toggle navigation of BaseMod.props.ui.props_ui" class="toctree-checkbox" id="toctree-checkbox-67" name="toctree-checkbox-67" role="switch" type="checkbox"/><label for="toctree-checkbox-67"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.props.ui.props_ui.Ui_Props.html">BaseMod.props.ui.props_ui.Ui_Props</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.props.ui.props_vis_ui.html">BaseMod.props.ui.props_vis_ui</a><input aria-label="Toggle navigation of BaseMod.props.ui.props_vis_ui" class="toctree-checkbox" id="toctree-checkbox-68" name="toctree-checkbox-68" role="switch" type="checkbox"/><label for="toctree-checkbox-68"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.props.ui.props_vis_ui.Ui_PropsView.html">BaseMod.props.ui.props_vis_ui.Ui_PropsView</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.themes.html">BaseMod.themes</a><input aria-label="Toggle navigation of BaseMod.themes" class="toctree-checkbox" id="toctree-checkbox-69" name="toctree-checkbox-69" role="switch" type="checkbox"/><label for="toctree-checkbox-69"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.themes.RaspberryDark.html">BaseMod.themes.RaspberryDark</a><input aria-label="Toggle navigation of BaseMod.themes.RaspberryDark" class="toctree-checkbox" id="toctree-checkbox-70" name="toctree-checkbox-70" role="switch" type="checkbox"/><label for="toctree-checkbox-70"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.themes.RaspberryDark.RaspberryDark.html">BaseMod.themes.RaspberryDark.RaspberryDark</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.themes.paletteui.html">BaseMod.themes.paletteui</a><input aria-label="Toggle navigation of BaseMod.themes.paletteui" class="toctree-checkbox" id="toctree-checkbox-71" name="toctree-checkbox-71" role="switch" type="checkbox"/><label for="toctree-checkbox-71"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.themes.paletteui.Ui_Paletteui.html">BaseMod.themes.paletteui.Ui_Paletteui</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.themes.paletteuiconnector.html">BaseMod.themes.paletteuiconnector</a><input aria-label="Toggle navigation of BaseMod.themes.paletteuiconnector" class="toctree-checkbox" id="toctree-checkbox-72" name="toctree-checkbox-72" role="switch" type="checkbox"/><label for="toctree-checkbox-72"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.themes.paletteuiconnector.RPDarkUI.html">BaseMod.themes.paletteuiconnector.RPDarkUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.themes.preferencesui.html">BaseMod.themes.preferencesui</a><input aria-label="Toggle navigation of BaseMod.themes.preferencesui" class="toctree-checkbox" id="toctree-checkbox-73" name="toctree-checkbox-73" role="switch" type="checkbox"/><label for="toctree-checkbox-73"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.themes.preferencesui.Ui_Preferences.html">BaseMod.themes.preferencesui.Ui_Preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.themes.preferencesuiconnector.html">BaseMod.themes.preferencesuiconnector</a><input aria-label="Toggle navigation of BaseMod.themes.preferencesuiconnector" class="toctree-checkbox" id="toctree-checkbox-74" name="toctree-checkbox-74" role="switch" type="checkbox"/><label for="toctree-checkbox-74"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.themes.preferencesuiconnector.PreferencesUI.html">BaseMod.themes.preferencesuiconnector.PreferencesUI</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.tiles.html">BaseMod.tiles</a><input aria-label="Toggle navigation of BaseMod.tiles" class="toctree-checkbox" id="toctree-checkbox-75" name="toctree-checkbox-75" role="switch" type="checkbox"/><label for="toctree-checkbox-75"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tileEditor.html">BaseMod.tiles.tileEditor</a><input aria-label="Toggle navigation of BaseMod.tiles.tileEditor" class="toctree-checkbox" id="toctree-checkbox-76" name="toctree-checkbox-76" role="switch" type="checkbox"/><label for="toctree-checkbox-76"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileEditor.TileEditor.html">BaseMod.tiles.tileEditor.TileEditor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileEditor.TileTools.html">BaseMod.tiles.tileEditor.TileTools</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tileExplorer.html">BaseMod.tiles.tileExplorer</a><input aria-label="Toggle navigation of BaseMod.tiles.tileExplorer" class="toctree-checkbox" id="toctree-checkbox-77" name="toctree-checkbox-77" role="switch" type="checkbox"/><label for="toctree-checkbox-77"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileExplorer.TileExplorer.html">BaseMod.tiles.tileExplorer.TileExplorer</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tileHistory.html">BaseMod.tiles.tileHistory</a><input aria-label="Toggle navigation of BaseMod.tiles.tileHistory" class="toctree-checkbox" id="toctree-checkbox-78" name="toctree-checkbox-78" role="switch" type="checkbox"/><label for="toctree-checkbox-78"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileHistory.DefaultMaterialChange.html">BaseMod.tiles.tileHistory.DefaultMaterialChange</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileHistory.LevelResizedTiles.html">BaseMod.tiles.tileHistory.LevelResizedTiles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileHistory.TileBrush.html">BaseMod.tiles.tileHistory.TileBrush</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileHistory.TileEllipse.html">BaseMod.tiles.tileHistory.TileEllipse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileHistory.TileLine.html">BaseMod.tiles.tileHistory.TileLine</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileHistory.TilePen.html">BaseMod.tiles.tileHistory.TilePen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileHistory.TileRectangle.html">BaseMod.tiles.tileHistory.TileRectangle</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tileModule.html">BaseMod.tiles.tileModule</a><input aria-label="Toggle navigation of BaseMod.tiles.tileModule" class="toctree-checkbox" id="toctree-checkbox-79" name="toctree-checkbox-79" role="switch" type="checkbox"/><label for="toctree-checkbox-79"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileModule.TileModule.html">BaseMod.tiles.tileModule.TileModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tilePin.html">BaseMod.tiles.tilePin</a><input aria-label="Toggle navigation of BaseMod.tiles.tilePin" class="toctree-checkbox" id="toctree-checkbox-80" name="toctree-checkbox-80" role="switch" type="checkbox"/><label for="toctree-checkbox-80"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tilePin.TilePin.html">BaseMod.tiles.tilePin.TilePin</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tileRenderTexture.html">BaseMod.tiles.tileRenderTexture</a><input aria-label="Toggle navigation of BaseMod.tiles.tileRenderTexture" class="toctree-checkbox" id="toctree-checkbox-81" name="toctree-checkbox-81" role="switch" type="checkbox"/><label for="toctree-checkbox-81"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileRenderTexture.TileRenderLevelImage.html">BaseMod.tiles.tileRenderTexture.TileRenderLevelImage</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tileUIConnectors.html">BaseMod.tiles.tileUIConnectors</a><input aria-label="Toggle navigation of BaseMod.tiles.tileUIConnectors" class="toctree-checkbox" id="toctree-checkbox-82" name="toctree-checkbox-82" role="switch" type="checkbox"/><label for="toctree-checkbox-82"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUIConnectors.TileSettings.html">BaseMod.tiles.tileUIConnectors.TileSettings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUIConnectors.TileUI.html">BaseMod.tiles.tileUIConnectors.TileUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUIConnectors.TileViewUI.html">BaseMod.tiles.tileUIConnectors.TileViewUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.tileUtils.html">BaseMod.tiles.tileUtils</a><input aria-label="Toggle navigation of BaseMod.tiles.tileUtils" class="toctree-checkbox" id="toctree-checkbox-83" name="toctree-checkbox-83" role="switch" type="checkbox"/><label for="toctree-checkbox-83"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUtils.BaseTileChangelist.html">BaseMod.tiles.tileUtils.BaseTileChangelist</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUtils.PlacedMaterial.html">BaseMod.tiles.tileUtils.PlacedMaterial</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUtils.PlacedTile.html">BaseMod.tiles.tileUtils.PlacedTile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUtils.PlacedTileBody.html">BaseMod.tiles.tileUtils.PlacedTileBody</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUtils.PlacedTileHead.html">BaseMod.tiles.tileUtils.PlacedTileHead</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUtils.RemovedTile.html">BaseMod.tiles.tileUtils.RemovedTile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.tiles.tileUtils.TileHistory.html">BaseMod.tiles.tileUtils.TileHistory</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.tiles.ui.html">BaseMod.tiles.ui</a><input aria-label="Toggle navigation of BaseMod.tiles.ui" class="toctree-checkbox" id="toctree-checkbox-84" name="toctree-checkbox-84" role="switch" type="checkbox"/><label for="toctree-checkbox-84"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.tiles.ui.tilepin.html">BaseMod.tiles.ui.tilepin</a><input aria-label="Toggle navigation of BaseMod.tiles.ui.tilepin" class="toctree-checkbox" id="toctree-checkbox-85" name="toctree-checkbox-85" role="switch" type="checkbox"/><label for="toctree-checkbox-85"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.tiles.ui.tilepin.Ui_TilePin.html">BaseMod.tiles.ui.tilepin.Ui_TilePin</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.tiles.ui.tiles_ui.html">BaseMod.tiles.ui.tiles_ui</a><input aria-label="Toggle navigation of BaseMod.tiles.ui.tiles_ui" class="toctree-checkbox" id="toctree-checkbox-86" name="toctree-checkbox-86" role="switch" type="checkbox"/><label for="toctree-checkbox-86"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.tiles.ui.tiles_ui.Ui_Tiles.html">BaseMod.tiles.ui.tiles_ui.Ui_Tiles</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.tiles.ui.tiles_vis_ui.html">BaseMod.tiles.ui.tiles_vis_ui</a><input aria-label="Toggle navigation of BaseMod.tiles.ui.tiles_vis_ui" class="toctree-checkbox" id="toctree-checkbox-87" name="toctree-checkbox-87" role="switch" type="checkbox"/><label for="toctree-checkbox-87"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.tiles.ui.tiles_vis_ui.Ui_TilesView.html">BaseMod.tiles.ui.tiles_vis_ui.Ui_TilesView</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="BaseMod.tiles.ui.tilesettings_ui.html">BaseMod.tiles.ui.tilesettings_ui</a><input aria-label="Toggle navigation of BaseMod.tiles.ui.tilesettings_ui" class="toctree-checkbox" id="toctree-checkbox-88" name="toctree-checkbox-88" role="switch" type="checkbox"/><label for="toctree-checkbox-88"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="BaseMod.tiles.ui.tilesettings_ui.Ui_TileSettings.html">BaseMod.tiles.ui.tilesettings_ui.Ui_TileSettings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="BaseMod.ui.html">BaseMod.ui</a><input aria-label="Toggle navigation of BaseMod.ui" class="toctree-checkbox" id="toctree-checkbox-89" name="toctree-checkbox-89" role="switch" type="checkbox"/><label for="toctree-checkbox-89"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.ui.createcategory_ui.html">BaseMod.ui.createcategory_ui</a><input aria-label="Toggle navigation of BaseMod.ui.createcategory_ui" class="toctree-checkbox" id="toctree-checkbox-90" name="toctree-checkbox-90" role="switch" type="checkbox"/><label for="toctree-checkbox-90"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.ui.createcategory_ui.Ui_CreateCategory.html">BaseMod.ui.createcategory_ui.Ui_CreateCategory</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.ui.explorer_ui.html">BaseMod.ui.explorer_ui</a><input aria-label="Toggle navigation of BaseMod.ui.explorer_ui" class="toctree-checkbox" id="toctree-checkbox-91" name="toctree-checkbox-91" role="switch" type="checkbox"/><label for="toctree-checkbox-91"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.ui.explorer_ui.Ui_Explorer.html">BaseMod.ui.explorer_ui.Ui_Explorer</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="BaseMod.ui.itemaction_ui.html">BaseMod.ui.itemaction_ui</a><input aria-label="Toggle navigation of BaseMod.ui.itemaction_ui" class="toctree-checkbox" id="toctree-checkbox-92" name="toctree-checkbox-92" role="switch" type="checkbox"/><label for="toctree-checkbox-92"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="BaseMod.ui.itemaction_ui.Ui_ItemAction.html">BaseMod.ui.itemaction_ui.Ui_ItemAction</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="RWESharp.html">RWESharp</a><input aria-label="Toggle navigation of RWESharp" class="toctree-checkbox" id="toctree-checkbox-93" name="toctree-checkbox-93" role="switch" type="checkbox"/><label for="toctree-checkbox-93"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.Configurable.html">RWESharp.Configurable</a><input aria-label="Toggle navigation of RWESharp.Configurable" class="toctree-checkbox" id="toctree-checkbox-94" name="toctree-checkbox-94" role="switch" type="checkbox"/><label for="toctree-checkbox-94"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Configurable.Configurable.html">RWESharp.Configurable.Configurable</a><input aria-label="Toggle navigation of RWESharp.Configurable.Configurable" class="toctree-checkbox" id="toctree-checkbox-95" name="toctree-checkbox-95" role="switch" type="checkbox"/><label for="toctree-checkbox-95"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.Configurable.Configurable.html">RWESharp.Configurable.Configurable.Configurable</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Configurable.PythonTypes.html">RWESharp.Configurable.PythonTypes</a><input aria-label="Toggle navigation of RWESharp.Configurable.PythonTypes" class="toctree-checkbox" id="toctree-checkbox-96" name="toctree-checkbox-96" role="switch" type="checkbox"/><label for="toctree-checkbox-96"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.PythonTypes.BoolConfigurable.html">RWESharp.Configurable.PythonTypes.BoolConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.PythonTypes.DictConfigurable.html">RWESharp.Configurable.PythonTypes.DictConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.PythonTypes.FloatConfigurable.html">RWESharp.Configurable.PythonTypes.FloatConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.PythonTypes.IntConfigurable.html">RWESharp.Configurable.PythonTypes.IntConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.PythonTypes.StringConfigurable.html">RWESharp.Configurable.PythonTypes.StringConfigurable</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Configurable.QtTypes.html">RWESharp.Configurable.QtTypes</a><input aria-label="Toggle navigation of RWESharp.Configurable.QtTypes" class="toctree-checkbox" id="toctree-checkbox-97" name="toctree-checkbox-97" role="switch" type="checkbox"/><label for="toctree-checkbox-97"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.QtTypes.ColorConfigurable.html">RWESharp.Configurable.QtTypes.ColorConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.QtTypes.EnumConfigurable.html">RWESharp.Configurable.QtTypes.EnumConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.QtTypes.EnumFlagConfigurable.html">RWESharp.Configurable.QtTypes.EnumFlagConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.QtTypes.KeyConfigurable.html">RWESharp.Configurable.QtTypes.KeyConfigurable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Configurable.QtTypes.PenConfigurable.html">RWESharp.Configurable.QtTypes.PenConfigurable</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.Core.html">RWESharp.Core</a><input aria-label="Toggle navigation of RWESharp.Core" class="toctree-checkbox" id="toctree-checkbox-98" name="toctree-checkbox-98" role="switch" type="checkbox"/><label for="toctree-checkbox-98"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.Application.html">RWESharp.Core.Application</a><input aria-label="Toggle navigation of RWESharp.Core.Application" class="toctree-checkbox" id="toctree-checkbox-99" name="toctree-checkbox-99" role="switch" type="checkbox"/><label for="toctree-checkbox-99"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.Application.Application.html">RWESharp.Core.Application.Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.Application.CommandLineOptions.html">RWESharp.Core.Application.CommandLineOptions</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.Config.html">RWESharp.Core.Config</a><input aria-label="Toggle navigation of RWESharp.Core.Config" class="toctree-checkbox" id="toctree-checkbox-100" name="toctree-checkbox-100" role="switch" type="checkbox"/><label for="toctree-checkbox-100"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.Config.Config.html">RWESharp.Core.Config.Config</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.Exceptions.html">RWESharp.Core.Exceptions</a><input aria-label="Toggle navigation of RWESharp.Core.Exceptions" class="toctree-checkbox" id="toctree-checkbox-101" name="toctree-checkbox-101" role="switch" type="checkbox"/><label for="toctree-checkbox-101"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.Exceptions.FileNotCompatible.html">RWESharp.Core.Exceptions.FileNotCompatible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.Exceptions.FileStorageError.html">RWESharp.Core.Exceptions.FileStorageError</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.HistorySystem.html">RWESharp.Core.HistorySystem</a><input aria-label="Toggle navigation of RWESharp.Core.HistorySystem" class="toctree-checkbox" id="toctree-checkbox-102" name="toctree-checkbox-102" role="switch" type="checkbox"/><label for="toctree-checkbox-102"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.HistorySystem.LevelHistory.html">RWESharp.Core.HistorySystem.LevelHistory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.HistorySystem.LevelResized.html">RWESharp.Core.HistorySystem.LevelResized</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.HistorySystem.MultiHistoryElement.html">RWESharp.Core.HistorySystem.MultiHistoryElement</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.ItemData.html">RWESharp.Core.ItemData</a><input aria-label="Toggle navigation of RWESharp.Core.ItemData" class="toctree-checkbox" id="toctree-checkbox-103" name="toctree-checkbox-103" role="switch" type="checkbox"/><label for="toctree-checkbox-103"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.ItemData.ItemData.html">RWESharp.Core.ItemData.ItemData</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.ItemData.ItemDataItem.html">RWESharp.Core.ItemData.ItemDataItem</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.LevelRenderer.html">RWESharp.Core.LevelRenderer</a><input aria-label="Toggle navigation of RWESharp.Core.LevelRenderer" class="toctree-checkbox" id="toctree-checkbox-104" name="toctree-checkbox-104" role="switch" type="checkbox"/><label for="toctree-checkbox-104"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.LevelRenderer.LevelRenderer.html">RWESharp.Core.LevelRenderer.LevelRenderer</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.Manager.html">RWESharp.Core.Manager</a><input aria-label="Toggle navigation of RWESharp.Core.Manager" class="toctree-checkbox" id="toctree-checkbox-105" name="toctree-checkbox-105" role="switch" type="checkbox"/><label for="toctree-checkbox-105"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.Manager.Manager.html">RWESharp.Core.Manager.Manager</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="RWESharp.Core.ModLoader.html">RWESharp.Core.ModLoader</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Core.TreeElement.html">RWESharp.Core.TreeElement</a><input aria-label="Toggle navigation of RWESharp.Core.TreeElement" class="toctree-checkbox" id="toctree-checkbox-106" name="toctree-checkbox-106" role="switch" type="checkbox"/><label for="toctree-checkbox-106"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.TreeElement.HotkeyElement.html">RWESharp.Core.TreeElement.HotkeyElement</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.TreeElement.SettingElement.html">RWESharp.Core.TreeElement.SettingElement</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Core.TreeElement.TreeElement.html">RWESharp.Core.TreeElement.TreeElement</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="RWESharp.Core.lingoIO.html">RWESharp.Core.lingoIO</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.Level.html">RWESharp.Level</a><input aria-label="Toggle navigation of RWESharp.Level" class="toctree-checkbox" id="toctree-checkbox-107" name="toctree-checkbox-107" role="switch" type="checkbox"/><label for="toctree-checkbox-107"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Level.CustomLevelData.html">RWESharp.Level.CustomLevelData</a><input aria-label="Toggle navigation of RWESharp.Level.CustomLevelData" class="toctree-checkbox" id="toctree-checkbox-108" name="toctree-checkbox-108" role="switch" type="checkbox"/><label for="toctree-checkbox-108"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Level.CustomLevelData.CustomLevelData.html">RWESharp.Level.CustomLevelData.CustomLevelData</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Level.LevelPart.html">RWESharp.Level.LevelPart</a><input aria-label="Toggle navigation of RWESharp.Level.LevelPart" class="toctree-checkbox" id="toctree-checkbox-109" name="toctree-checkbox-109" role="switch" type="checkbox"/><label for="toctree-checkbox-109"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Level.LevelPart.LevelPart.html">RWESharp.Level.LevelPart.LevelPart</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Level.RWELevel.html">RWESharp.Level.RWELevel</a><input aria-label="Toggle navigation of RWESharp.Level.RWELevel" class="toctree-checkbox" id="toctree-checkbox-110" name="toctree-checkbox-110" role="switch" type="checkbox"/><label for="toctree-checkbox-110"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Level.RWELevel.RWELevel.html">RWESharp.Level.RWELevel.RWELevel</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Level.RWLParser.html">RWESharp.Level.RWLParser</a><input aria-label="Toggle navigation of RWESharp.Level.RWLParser" class="toctree-checkbox" id="toctree-checkbox-111" name="toctree-checkbox-111" role="switch" type="checkbox"/><label for="toctree-checkbox-111"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Level.RWLParser.RWLParser.html">RWESharp.Level.RWLParser.RWLParser</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Level.RWLParser.StoreRWL.html">RWESharp.Level.RWLParser.StoreRWL</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.Loaders.html">RWESharp.Loaders</a><input aria-label="Toggle navigation of RWESharp.Loaders" class="toctree-checkbox" id="toctree-checkbox-112" name="toctree-checkbox-112" role="switch" type="checkbox"/><label for="toctree-checkbox-112"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Loaders.Database.html">RWESharp.Loaders.Database</a><input aria-label="Toggle navigation of RWESharp.Loaders.Database" class="toctree-checkbox" id="toctree-checkbox-113" name="toctree-checkbox-113" role="switch" type="checkbox"/><label for="toctree-checkbox-113"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Database.RWESharpDatabase.html">RWESharp.Loaders.Database.RWESharpDatabase</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Loaders.Effect.html">RWESharp.Loaders.Effect</a><input aria-label="Toggle navigation of RWESharp.Loaders.Effect" class="toctree-checkbox" id="toctree-checkbox-114" name="toctree-checkbox-114" role="switch" type="checkbox"/><label for="toctree-checkbox-114"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Effect.Effect.html">RWESharp.Loaders.Effect.Effect</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Effect.EffectCategory.html">RWESharp.Loaders.Effect.EffectCategory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Effect.EffectOption.html">RWESharp.Loaders.Effect.EffectOption</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Effect.Effects.html">RWESharp.Loaders.Effect.Effects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Effect.MoveDeleteOption.html">RWESharp.Loaders.Effect.MoveDeleteOption</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Effect.SeedOption.html">RWESharp.Loaders.Effect.SeedOption</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="RWESharp.Loaders.EffectLoader.html">RWESharp.Loaders.EffectLoader</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Loaders.Loader.html">RWESharp.Loaders.Loader</a><input aria-label="Toggle navigation of RWESharp.Loaders.Loader" class="toctree-checkbox" id="toctree-checkbox-115" name="toctree-checkbox-115" role="switch" type="checkbox"/><label for="toctree-checkbox-115"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Loader.Loader.html">RWESharp.Loaders.Loader.Loader</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Loaders.Prop.html">RWESharp.Loaders.Prop</a><input aria-label="Toggle navigation of RWESharp.Loaders.Prop" class="toctree-checkbox" id="toctree-checkbox-116" name="toctree-checkbox-116" role="switch" type="checkbox"/><label for="toctree-checkbox-116"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Prop.Prop.html">RWESharp.Loaders.Prop.Prop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Prop.PropCategory.html">RWESharp.Loaders.Prop.PropCategory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Prop.Props.html">RWESharp.Loaders.Prop.Props</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Loaders.PropLoader.html">RWESharp.Loaders.PropLoader</a><input aria-label="Toggle navigation of RWESharp.Loaders.PropLoader" class="toctree-checkbox" id="toctree-checkbox-117" name="toctree-checkbox-117" role="switch" type="checkbox"/><label for="toctree-checkbox-117"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.PropLoader.PropPackLoader.html">RWESharp.Loaders.PropLoader.PropPackLoader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.PropLoader.PropProgress.html">RWESharp.Loaders.PropLoader.PropProgress</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.PropLoader.Tile2PropLoader.html">RWESharp.Loaders.PropLoader.Tile2PropLoader</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Loaders.Tile.html">RWESharp.Loaders.Tile</a><input aria-label="Toggle navigation of RWESharp.Loaders.Tile" class="toctree-checkbox" id="toctree-checkbox-118" name="toctree-checkbox-118" role="switch" type="checkbox"/><label for="toctree-checkbox-118"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Tile.Tile.html">RWESharp.Loaders.Tile.Tile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Tile.TileCategory.html">RWESharp.Loaders.Tile.TileCategory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.Tile.Tiles.html">RWESharp.Loaders.Tile.Tiles</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Loaders.TileLoader.html">RWESharp.Loaders.TileLoader</a><input aria-label="Toggle navigation of RWESharp.Loaders.TileLoader" class="toctree-checkbox" id="toctree-checkbox-119" name="toctree-checkbox-119" role="switch" type="checkbox"/><label for="toctree-checkbox-119"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.TileLoader.TilePackLoader.html">RWESharp.Loaders.TileLoader.TilePackLoader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Loaders.TileLoader.TileProgress.html">RWESharp.Loaders.TileLoader.TileProgress</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.Modify.html">RWESharp.Modify</a><input aria-label="Toggle navigation of RWESharp.Modify" class="toctree-checkbox" id="toctree-checkbox-120" name="toctree-checkbox-120" role="switch" type="checkbox"/><label for="toctree-checkbox-120"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Modify.ConfigModule.html">RWESharp.Modify.ConfigModule</a><input aria-label="Toggle navigation of RWESharp.Modify.ConfigModule" class="toctree-checkbox" id="toctree-checkbox-121" name="toctree-checkbox-121" role="switch" type="checkbox"/><label for="toctree-checkbox-121"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.ConfigModule.ConfigModule.html">RWESharp.Modify.ConfigModule.ConfigModule</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Modify.Editor.html">RWESharp.Modify.Editor</a><input aria-label="Toggle navigation of RWESharp.Modify.Editor" class="toctree-checkbox" id="toctree-checkbox-122" name="toctree-checkbox-122" role="switch" type="checkbox"/><label for="toctree-checkbox-122"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Editor.Editor.html">RWESharp.Modify.Editor.Editor</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Modify.HistoryElement.html">RWESharp.Modify.HistoryElement</a><input aria-label="Toggle navigation of RWESharp.Modify.HistoryElement" class="toctree-checkbox" id="toctree-checkbox-123" name="toctree-checkbox-123" role="switch" type="checkbox"/><label for="toctree-checkbox-123"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.HistoryElement.HistoryElement.html">RWESharp.Modify.HistoryElement.HistoryElement</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Modify.Mod.html">RWESharp.Modify.Mod</a><input aria-label="Toggle navigation of RWESharp.Modify.Mod" class="toctree-checkbox" id="toctree-checkbox-124" name="toctree-checkbox-124" role="switch" type="checkbox"/><label for="toctree-checkbox-124"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Mod.Mod.html">RWESharp.Modify.Mod.Mod</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Mod.ModInfo.html">RWESharp.Modify.Mod.ModInfo</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Modify.Module.html">RWESharp.Modify.Module</a><input aria-label="Toggle navigation of RWESharp.Modify.Module" class="toctree-checkbox" id="toctree-checkbox-125" name="toctree-checkbox-125" role="switch" type="checkbox"/><label for="toctree-checkbox-125"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Module.Module.html">RWESharp.Modify.Module.Module</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Modify.Theme.html">RWESharp.Modify.Theme</a><input aria-label="Toggle navigation of RWESharp.Modify.Theme" class="toctree-checkbox" id="toctree-checkbox-126" name="toctree-checkbox-126" role="switch" type="checkbox"/><label for="toctree-checkbox-126"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Theme.Theme.html">RWESharp.Modify.Theme.Theme</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Modify.Ui.html">RWESharp.Modify.Ui</a><input aria-label="Toggle navigation of RWESharp.Modify.Ui" class="toctree-checkbox" id="toctree-checkbox-127" name="toctree-checkbox-127" role="switch" type="checkbox"/><label for="toctree-checkbox-127"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Ui.SettingUI.html">RWESharp.Modify.Ui.SettingUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Ui.ThemeUI.html">RWESharp.Modify.Ui.ThemeUI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Ui.UI.html">RWESharp.Modify.Ui.UI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Modify.Ui.ViewUI.html">RWESharp.Modify.Ui.ViewUI</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.Renderable.html">RWESharp.Renderable</a><input aria-label="Toggle navigation of RWESharp.Renderable" class="toctree-checkbox" id="toctree-checkbox-128" name="toctree-checkbox-128" role="switch" type="checkbox"/><label for="toctree-checkbox-128"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.Handle.html">RWESharp.Renderable.Handle</a><input aria-label="Toggle navigation of RWESharp.Renderable.Handle" class="toctree-checkbox" id="toctree-checkbox-129" name="toctree-checkbox-129" role="switch" type="checkbox"/><label for="toctree-checkbox-129"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.Handle.Handle.html">RWESharp.Renderable.Handle.Handle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.Handle.HandleItem.html">RWESharp.Renderable.Handle.HandleItem</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.HandleRectangle.html">RWESharp.Renderable.HandleRectangle</a><input aria-label="Toggle navigation of RWESharp.Renderable.HandleRectangle" class="toctree-checkbox" id="toctree-checkbox-130" name="toctree-checkbox-130" role="switch" type="checkbox"/><label for="toctree-checkbox-130"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.HandleRectangle.GridHandleRectangle.html">RWESharp.Renderable.HandleRectangle.GridHandleRectangle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.HandleRectangle.GridRectangle.html">RWESharp.Renderable.HandleRectangle.GridRectangle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.HandleRectangle.HandleRectangle.html">RWESharp.Renderable.HandleRectangle.HandleRectangle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.HandleRectangle.NormalRectangle.html">RWESharp.Renderable.HandleRectangle.NormalRectangle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.HandleRectangle.Rectangle.html">RWESharp.Renderable.HandleRectangle.Rectangle</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderEllipse.html">RWESharp.Renderable.RenderEllipse</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderEllipse" class="toctree-checkbox" id="toctree-checkbox-131" name="toctree-checkbox-131" role="switch" type="checkbox"/><label for="toctree-checkbox-131"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderEllipse.RenderEllipse.html">RWESharp.Renderable.RenderEllipse.RenderEllipse</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderImage.html">RWESharp.Renderable.RenderImage</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderImage" class="toctree-checkbox" id="toctree-checkbox-132" name="toctree-checkbox-132" role="switch" type="checkbox"/><label for="toctree-checkbox-132"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderImage.RenderImage.html">RWESharp.Renderable.RenderImage.RenderImage</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderLevelImage.html">RWESharp.Renderable.RenderLevelImage</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderLevelImage" class="toctree-checkbox" id="toctree-checkbox-133" name="toctree-checkbox-133" role="switch" type="checkbox"/><label for="toctree-checkbox-133"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderLevelImage.RenderLevelImage.html">RWESharp.Renderable.RenderLevelImage.RenderLevelImage</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderLine.html">RWESharp.Renderable.RenderLine</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderLine" class="toctree-checkbox" id="toctree-checkbox-134" name="toctree-checkbox-134" role="switch" type="checkbox"/><label for="toctree-checkbox-134"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderLine.RenderLine.html">RWESharp.Renderable.RenderLine.RenderLine</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderList.html">RWESharp.Renderable.RenderList</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderList" class="toctree-checkbox" id="toctree-checkbox-135" name="toctree-checkbox-135" role="switch" type="checkbox"/><label for="toctree-checkbox-135"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderList.RenderList.html">RWESharp.Renderable.RenderList.RenderList</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderPoly.html">RWESharp.Renderable.RenderPoly</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderPoly" class="toctree-checkbox" id="toctree-checkbox-136" name="toctree-checkbox-136" role="switch" type="checkbox"/><label for="toctree-checkbox-136"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderPoly.RenderPoly.html">RWESharp.Renderable.RenderPoly.RenderPoly</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderRect.html">RWESharp.Renderable.RenderRect</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderRect" class="toctree-checkbox" id="toctree-checkbox-137" name="toctree-checkbox-137" role="switch" type="checkbox"/><label for="toctree-checkbox-137"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderRect.RenderRect.html">RWESharp.Renderable.RenderRect.RenderRect</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderText.html">RWESharp.Renderable.RenderText</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderText" class="toctree-checkbox" id="toctree-checkbox-138" name="toctree-checkbox-138" role="switch" type="checkbox"/><label for="toctree-checkbox-138"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderText.RenderText.html">RWESharp.Renderable.RenderText.RenderText</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.RenderTile.html">RWESharp.Renderable.RenderTile</a><input aria-label="Toggle navigation of RWESharp.Renderable.RenderTile" class="toctree-checkbox" id="toctree-checkbox-139" name="toctree-checkbox-139" role="switch" type="checkbox"/><label for="toctree-checkbox-139"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.RenderTile.RenderTile.html">RWESharp.Renderable.RenderTile.RenderTile</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.Renderable.Renderable.html">RWESharp.Renderable.Renderable</a><input aria-label="Toggle navigation of RWESharp.Renderable.Renderable" class="toctree-checkbox" id="toctree-checkbox-140" name="toctree-checkbox-140" role="switch" type="checkbox"/><label for="toctree-checkbox-140"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.Renderable.Renderable.Renderable.html">RWESharp.Renderable.Renderable.Renderable</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="RWESharp.info.html">RWESharp.info</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.ui.html">RWESharp.ui</a><input aria-label="Toggle navigation of RWESharp.ui" class="toctree-checkbox" id="toctree-checkbox-141" name="toctree-checkbox-141" role="switch" type="checkbox"/><label for="toctree-checkbox-141"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.FunnyVideo.html">RWESharp.ui.FunnyVideo</a><input aria-label="Toggle navigation of RWESharp.ui.FunnyVideo" class="toctree-checkbox" id="toctree-checkbox-142" name="toctree-checkbox-142" role="switch" type="checkbox"/><label for="toctree-checkbox-142"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.ui.FunnyVideo.FunnyVideo.html">RWESharp.ui.FunnyVideo.FunnyVideo</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.KeyDialog.html">RWESharp.ui.KeyDialog</a><input aria-label="Toggle navigation of RWESharp.ui.KeyDialog" class="toctree-checkbox" id="toctree-checkbox-143" name="toctree-checkbox-143" role="switch" type="checkbox"/><label for="toctree-checkbox-143"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.ui.KeyDialog.KeyDialog.html">RWESharp.ui.KeyDialog.KeyDialog</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.aboutuiconnector.html">RWESharp.ui.aboutuiconnector</a><input aria-label="Toggle navigation of RWESharp.ui.aboutuiconnector" class="toctree-checkbox" id="toctree-checkbox-144" name="toctree-checkbox-144" role="switch" type="checkbox"/><label for="toctree-checkbox-144"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.ui.aboutuiconnector.AboutDialog.html">RWESharp.ui.aboutuiconnector.AboutDialog</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.hotkeysuiconnector.html">RWESharp.ui.hotkeysuiconnector</a><input aria-label="Toggle navigation of RWESharp.ui.hotkeysuiconnector" class="toctree-checkbox" id="toctree-checkbox-145" name="toctree-checkbox-145" role="switch" type="checkbox"/><label for="toctree-checkbox-145"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.ui.hotkeysuiconnector.HotkeysUI.html">RWESharp.ui.hotkeysuiconnector.HotkeysUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.mainuiconnector.html">RWESharp.ui.mainuiconnector</a><input aria-label="Toggle navigation of RWESharp.ui.mainuiconnector" class="toctree-checkbox" id="toctree-checkbox-146" name="toctree-checkbox-146" role="switch" type="checkbox"/><label for="toctree-checkbox-146"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.ui.mainuiconnector.MainWindow.html">RWESharp.ui.mainuiconnector.MainWindow</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="RWESharp.ui.res_rc.html">RWESharp.ui.res_rc</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.settingsuiconnector.html">RWESharp.ui.settingsuiconnector</a><input aria-label="Toggle navigation of RWESharp.ui.settingsuiconnector" class="toctree-checkbox" id="toctree-checkbox-147" name="toctree-checkbox-147" role="switch" type="checkbox"/><label for="toctree-checkbox-147"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.ui.settingsuiconnector.SettingsDialogUI.html">RWESharp.ui.settingsuiconnector.SettingsDialogUI</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.splashuiconnector.html">RWESharp.ui.splashuiconnector</a><input aria-label="Toggle navigation of RWESharp.ui.splashuiconnector" class="toctree-checkbox" id="toctree-checkbox-148" name="toctree-checkbox-148" role="switch" type="checkbox"/><label for="toctree-checkbox-148"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.ui.splashuiconnector.SplashDialog.html">RWESharp.ui.splashuiconnector.SplashDialog</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.html">RWESharp.ui.uiscripts</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts" class="toctree-checkbox" id="toctree-checkbox-149" name="toctree-checkbox-149" role="switch" type="checkbox"/><label for="toctree-checkbox-149"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.PenPicker.html">RWESharp.ui.uiscripts.PenPicker</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts.PenPicker" class="toctree-checkbox" id="toctree-checkbox-150" name="toctree-checkbox-150" role="switch" type="checkbox"/><label for="toctree-checkbox-150"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="RWESharp.ui.uiscripts.PenPicker.Ui_Penpicker.html">RWESharp.ui.uiscripts.PenPicker.Ui_Penpicker</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.about.html">RWESharp.ui.uiscripts.about</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts.about" class="toctree-checkbox" id="toctree-checkbox-151" name="toctree-checkbox-151" role="switch" type="checkbox"/><label for="toctree-checkbox-151"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="RWESharp.ui.uiscripts.about.Ui_About.html">RWESharp.ui.uiscripts.about.Ui_About</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.hotkeys.html">RWESharp.ui.uiscripts.hotkeys</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts.hotkeys" class="toctree-checkbox" id="toctree-checkbox-152" name="toctree-checkbox-152" role="switch" type="checkbox"/><label for="toctree-checkbox-152"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="RWESharp.ui.uiscripts.hotkeys.Ui_Hotkeys.html">RWESharp.ui.uiscripts.hotkeys.Ui_Hotkeys</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.keydialog.html">RWESharp.ui.uiscripts.keydialog</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts.keydialog" class="toctree-checkbox" id="toctree-checkbox-153" name="toctree-checkbox-153" role="switch" type="checkbox"/><label for="toctree-checkbox-153"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="RWESharp.ui.uiscripts.keydialog.Ui_keyDialog.html">RWESharp.ui.uiscripts.keydialog.Ui_keyDialog</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.mainui.html">RWESharp.ui.uiscripts.mainui</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts.mainui" class="toctree-checkbox" id="toctree-checkbox-154" name="toctree-checkbox-154" role="switch" type="checkbox"/><label for="toctree-checkbox-154"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="RWESharp.ui.uiscripts.mainui.Ui_MainWindow.html">RWESharp.ui.uiscripts.mainui.Ui_MainWindow</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.settings.html">RWESharp.ui.uiscripts.settings</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts.settings" class="toctree-checkbox" id="toctree-checkbox-155" name="toctree-checkbox-155" role="switch" type="checkbox"/><label for="toctree-checkbox-155"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="RWESharp.ui.uiscripts.settings.Ui_Settings.html">RWESharp.ui.uiscripts.settings.Ui_Settings</a></li>
+</ul>
+</li>
+<li class="toctree-l4 has-children"><a class="reference internal" href="RWESharp.ui.uiscripts.splash.html">RWESharp.ui.uiscripts.splash</a><input aria-label="Toggle navigation of RWESharp.ui.uiscripts.splash" class="toctree-checkbox" id="toctree-checkbox-156" name="toctree-checkbox-156" role="switch" type="checkbox"/><label for="toctree-checkbox-156"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l5"><a class="reference internal" href="RWESharp.ui.uiscripts.splash.Ui_Splash.html">RWESharp.ui.uiscripts.splash.Ui_Splash</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.utils.html">RWESharp.utils</a><input aria-label="Toggle navigation of RWESharp.utils" class="toctree-checkbox" id="toctree-checkbox-157" name="toctree-checkbox-157" role="switch" type="checkbox"/><label for="toctree-checkbox-157"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="RWESharp.utils.Delegate.html">RWESharp.utils.Delegate</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="RWESharp.widgets.html">RWESharp.widgets</a><input aria-label="Toggle navigation of RWESharp.widgets" class="toctree-checkbox" id="toctree-checkbox-158" name="toctree-checkbox-158" role="switch" type="checkbox"/><label for="toctree-checkbox-158"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.ColorPicker.html">RWESharp.widgets.ColorPicker</a><input aria-label="Toggle navigation of RWESharp.widgets.ColorPicker" class="toctree-checkbox" id="toctree-checkbox-159" name="toctree-checkbox-159" role="switch" type="checkbox"/><label for="toctree-checkbox-159"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.ColorPicker.ColorPicker.html">RWESharp.widgets.ColorPicker.ColorPicker</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.LevelTabs.html">RWESharp.widgets.LevelTabs</a><input aria-label="Toggle navigation of RWESharp.widgets.LevelTabs" class="toctree-checkbox" id="toctree-checkbox-160" name="toctree-checkbox-160" role="switch" type="checkbox"/><label for="toctree-checkbox-160"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.LevelTabs.LevelTabs.html">RWESharp.widgets.LevelTabs.LevelTabs</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.PenPicker.html">RWESharp.widgets.PenPicker</a><input aria-label="Toggle navigation of RWESharp.widgets.PenPicker" class="toctree-checkbox" id="toctree-checkbox-161" name="toctree-checkbox-161" role="switch" type="checkbox"/><label for="toctree-checkbox-161"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.PenPicker.PenPicker.html">RWESharp.widgets.PenPicker.PenPicker</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.SettingsViewer.html">RWESharp.widgets.SettingsViewer</a><input aria-label="Toggle navigation of RWESharp.widgets.SettingsViewer" class="toctree-checkbox" id="toctree-checkbox-162" name="toctree-checkbox-162" role="switch" type="checkbox"/><label for="toctree-checkbox-162"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.SettingsViewer.SettingsViewer.html">RWESharp.widgets.SettingsViewer.SettingsViewer</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.SimpleGeoView.html">RWESharp.widgets.SimpleGeoView</a><input aria-label="Toggle navigation of RWESharp.widgets.SimpleGeoView" class="toctree-checkbox" id="toctree-checkbox-163" name="toctree-checkbox-163" role="switch" type="checkbox"/><label for="toctree-checkbox-163"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.SimpleGeoView.SimpleGeoViewport.html">RWESharp.widgets.SimpleGeoView.SimpleGeoViewport</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.SimpleViewport.html">RWESharp.widgets.SimpleViewport</a><input aria-label="Toggle navigation of RWESharp.widgets.SimpleViewport" class="toctree-checkbox" id="toctree-checkbox-164" name="toctree-checkbox-164" role="switch" type="checkbox"/><label for="toctree-checkbox-164"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.SimpleViewport.SimpleViewport.html">RWESharp.widgets.SimpleViewport.SimpleViewport</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.TileSettingsViewport.html">RWESharp.widgets.TileSettingsViewport</a><input aria-label="Toggle navigation of RWESharp.widgets.TileSettingsViewport" class="toctree-checkbox" id="toctree-checkbox-165" name="toctree-checkbox-165" role="switch" type="checkbox"/><label for="toctree-checkbox-165"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.TileSettingsViewport.TileSettingsViewport.html">RWESharp.widgets.TileSettingsViewport.TileSettingsViewport</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.ViewDockWidget.html">RWESharp.widgets.ViewDockWidget</a><input aria-label="Toggle navigation of RWESharp.widgets.ViewDockWidget" class="toctree-checkbox" id="toctree-checkbox-166" name="toctree-checkbox-166" role="switch" type="checkbox"/><label for="toctree-checkbox-166"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.ViewDockWidget.ViewDockWidget.html">RWESharp.widgets.ViewDockWidget.ViewDockWidget</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="RWESharp.widgets.Viewport.html">RWESharp.widgets.Viewport</a><input aria-label="Toggle navigation of RWESharp.widgets.Viewport" class="toctree-checkbox" id="toctree-checkbox-167" name="toctree-checkbox-167" role="switch" type="checkbox"/><label for="toctree-checkbox-167"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="RWESharp.widgets.Viewport.ViewPort.html">RWESharp.widgets.Viewport.ViewPort</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="main.html">main</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="RWS.html">RWS</a><input aria-label="Toggle navigation of RWS" class="toctree-checkbox" id="toctree-checkbox-168" name="toctree-checkbox-168" role="switch" type="checkbox"/><label for="toctree-checkbox-168"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Configurable.html">RWS.Configurable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Core.html">RWS.Core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Exceptions.html">RWS.Exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Loaders.html">RWS.Loaders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Modify.html">RWS.Modify</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Renderable.html">RWS.Renderable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Ui.html">RWS.Ui</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Utils.html">RWS.Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RWS.Widgets.html">RWS.Widgets</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Guides/Guides.html">Guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Guides/Quickstart.html">Modding Quickstart</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../_sources/_autosummary/BaseMod.light.lightHistory.LightPosChanged.rst.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="basemod-light-lighthistory-lightposchanged">
+<h1>BaseMod.light.lightHistory.LightPosChanged<a class="headerlink" href="#basemod-light-lighthistory-lightposchanged" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="BaseMod.light.lightHistory.LightPosChanged">
+<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">BaseMod.light.lightHistory.</span></span><span class="sig-name descname"><span class="pre">LightPosChanged</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">history</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angle</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.14)"><span class="pre">float</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">flatness</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/BaseMod/light/lightHistory.html#LightPosChanged"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#BaseMod.light.lightHistory.LightPosChanged" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="RWESharp.Modify.HistoryElement.HistoryElement.html#RWESharp.Modify.HistoryElement.HistoryElement" title="RWESharp.Modify.HistoryElement.HistoryElement"><code class="xref py py-class docutils literal notranslate"><span class="pre">HistoryElement</span></code></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>angle</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.14)"><em>float</em></a>)</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="BaseMod.light.lightHistory.LightPosChanged.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">history</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angle</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.14)"><span class="pre">float</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">flatness</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/BaseMod/light/lightHistory.html#LightPosChanged.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#BaseMod.light.lightHistory.LightPosChanged.__init__" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>angle</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.14)"><em>float</em></a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p class="rubric">Methods</p>
+<div class="table-wrapper autosummary longtable docutils container">
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.__init__" title="BaseMod.light.lightHistory.LightPosChanged.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(history, angle, flatness)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.redo_changes" title="BaseMod.light.lightHistory.LightPosChanged.redo_changes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">redo_changes</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.undo_changes" title="BaseMod.light.lightHistory.LightPosChanged.undo_changes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">undo_changes</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="rubric">Attributes</p>
+<div class="table-wrapper autosummary longtable docutils container">
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.basemod" title="BaseMod.light.lightHistory.LightPosChanged.basemod"><code class="xref py py-obj docutils literal notranslate"><span class="pre">basemod</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.level" title="BaseMod.light.lightHistory.LightPosChanged.level"><code class="xref py py-obj docutils literal notranslate"><span class="pre">level</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.manager" title="BaseMod.light.lightHistory.LightPosChanged.manager"><code class="xref py py-obj docutils literal notranslate"><span class="pre">manager</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<dl class="py method">
+<dt class="sig sig-object py" id="BaseMod.light.lightHistory.LightPosChanged.undo_changes">
+<span class="sig-name descname"><span class="pre">undo_changes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/BaseMod/light/lightHistory.html#LightPosChanged.undo_changes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#BaseMod.light.lightHistory.LightPosChanged.undo_changes" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="BaseMod.light.lightHistory.LightPosChanged.redo_changes">
+<span class="sig-name descname"><span class="pre">redo_changes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/BaseMod/light/lightHistory.html#LightPosChanged.redo_changes"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#BaseMod.light.lightHistory.LightPosChanged.redo_changes" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="BaseMod.light.lightHistory.LightPosChanged.basemod">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">basemod</span></span><a class="headerlink" href="#BaseMod.light.lightHistory.LightPosChanged.basemod" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="BaseMod.light.lightHistory.LightPosChanged.level">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">level</span></span><a class="headerlink" href="#BaseMod.light.lightHistory.LightPosChanged.level" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="BaseMod.light.lightHistory.LightPosChanged.manager">
+<em class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">manager</span></span><a class="headerlink" href="#BaseMod.light.lightHistory.LightPosChanged.manager" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="BaseMod.light.lightModule.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">BaseMod.light.lightModule</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="BaseMod.light.lightHistory.LightImageChanged.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">BaseMod.light.lightHistory.LightImageChanged</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2025, timofey26
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            <div class="icons">
+              <a class="muted-link " href="https://github.com/timofey26/RWE-Sharp" aria-label="GitHub">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+            </a>
+              
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">BaseMod.light.lightHistory.LightPosChanged</a><ul>
+<li><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged"><code class="docutils literal notranslate"><span class="pre">LightPosChanged</span></code></a><ul>
+<li><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.__init__"><code class="docutils literal notranslate"><span class="pre">LightPosChanged.__init__()</span></code></a></li>
+<li><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.undo_changes"><code class="docutils literal notranslate"><span class="pre">LightPosChanged.undo_changes()</span></code></a></li>
+<li><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.redo_changes"><code class="docutils literal notranslate"><span class="pre">LightPosChanged.redo_changes()</span></code></a></li>
+<li><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.basemod"><code class="docutils literal notranslate"><span class="pre">LightPosChanged.basemod</span></code></a></li>
+<li><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.level"><code class="docutils literal notranslate"><span class="pre">LightPosChanged.level</span></code></a></li>
+<li><a class="reference internal" href="#BaseMod.light.lightHistory.LightPosChanged.manager"><code class="docutils literal notranslate"><span class="pre">LightPosChanged.manager</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

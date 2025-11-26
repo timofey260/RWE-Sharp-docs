@@ -1,0 +1,42 @@
+RWESharp.Modify.Mod.Mod
+=======================
+
+.. currentmodule:: RWESharp.Modify.Mod
+
+.. autoclass:: Mod
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Mod.__init__
+      ~Mod.add_config_module
+      ~Mod.add_editor
+      ~Mod.add_hotkey
+      ~Mod.add_quickview_option
+      ~Mod.add_setting
+      ~Mod.add_view
+      ~Mod.close
+      ~Mod.level_opened
+      ~Mod.mount_levelparts
+      ~Mod.on_save
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Mod.author_id
+   
+   

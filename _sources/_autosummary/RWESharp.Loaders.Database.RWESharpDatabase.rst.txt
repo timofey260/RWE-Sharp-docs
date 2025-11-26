@@ -1,0 +1,30 @@
+RWESharp.Loaders.Database.RWESharpDatabase
+==========================================
+
+.. currentmodule:: RWESharp.Loaders.Database
+
+.. autoclass:: RWESharpDatabase
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~RWESharpDatabase.__init__
+      ~RWESharpDatabase.connect
+      ~RWESharpDatabase.get_drizzle_link
+      ~RWESharpDatabase.install_drizzle_from_link
+      ~RWESharpDatabase.log
+   
+   
+
+   
+   
+   

@@ -1,0 +1,8 @@
+RWS.Exceptions
+==============
+
+.. automodule:: RWS.Exceptions
+   :members:
+   :undoc-members:
+
+   

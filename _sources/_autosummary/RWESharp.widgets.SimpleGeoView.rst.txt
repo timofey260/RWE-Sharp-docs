@@ -1,0 +1,16 @@
+RWESharp.widgets.SimpleGeoView
+==============================
+
+.. automodule:: RWESharp.widgets.SimpleGeoView
+   :members:
+   :undoc-members:
+
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst
+   
+      SimpleGeoViewport
+   
